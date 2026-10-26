@@ -16,6 +16,8 @@ the frozen final pipeline (`predict.py --split test` + `score_predictions.py`).
 | `train7.py` | Consistency features, PCA-reduced embeddings, tiny MLP with group-softmax loss. |
 | `train8.py` (+ `textvec.py`) | TF-IDF unigram+bigram augmentation: overfits (train-hard 99–100%, val-hard drops 3.5–5.5 pts). |
 | `train9.py` | Independent-agreement features, block-wise L2, single-correct-group upweighting: all within noise or worse; rejected. |
+| `train10.py` (+ `arith.py`) | Arithmetic verification of "expr = value" claims in traces: weak signal (73.7% vs 75.8% base), no val-hard gain; rejected. |
+| `train11.py` | Ensemble of group-softmax and pointwise-LR probabilities: no gain over pure group-softmax; rejected. |
 | `train_final.py` | The submitted model: deterministic full-batch group-softmax, writes `runs/model_bundle.npz`. |
 | `analyze.py` | Calibration (confidence/margin vs accuracy) and failure analysis on validation. |
 
