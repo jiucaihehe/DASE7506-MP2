@@ -18,6 +18,11 @@ the frozen final pipeline (`predict.py --split test` + `score_predictions.py`).
 | `train9.py` | Independent-agreement features, block-wise L2, single-correct-group upweighting: all within noise or worse; rejected. |
 | `train10.py` (+ `arith.py`) | Arithmetic verification of "expr = value" claims in traces: weak signal (73.7% vs 75.8% base), no val-hard gain; rejected. |
 | `train11.py` | Ensemble of group-softmax and pointwise-LR probabilities: no gain over pure group-softmax; rejected. |
+| `train12.py` (+ `chain.py`) | Reasoning-chain coherence ("magic number") features: strong univariate signal (80.4% vs 67.8%) but no model gain; rejected. |
+| `train13.py` | Pairwise GBM Bradley–Terry preference model: val-hard 80.67, overfits; rejected. |
+| `train14.py` | Cluster-level two-stage answer model: val-hard 73.27, aggregation loses candidate detail; rejected. |
+| `train15.py` | kNN retrieval scoring (PCA-64, cosine, k=10–200): ≤68.74 alone, no ensemble gain; rejected. |
+| `train16.py` | Smooth margin listwise loss ± 4× permutation augmentation: ≤87.11; rejected. |
 | `train_final.py` | The submitted model: deterministic full-batch group-softmax, writes `runs/model_bundle.npz`. |
 | `analyze.py` | Calibration (confidence/margin vs accuracy) and failure analysis on validation. |
 

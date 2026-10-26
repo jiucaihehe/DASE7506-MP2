@@ -78,6 +78,12 @@ Standardize features with train statistics, apply the linear model, take the per
 | Group-softmax + PCA-128 embeddings | 92.48 | 85.68 |
 | Group-softmax tiny MLP (h=32, λ=0.03) | 93.36 | 87.35 |
 | Group-softmax + TF-IDF (2k–8k terms, λ≤0.05) | ≤91.60 | ≤84.01 |
+| Group-softmax + arithmetic-verification features | 93.23 | ≤87.11 |
+| Group-softmax + chain-coherence features | 93.36 | ≤87.35 |
+| Pairwise GBM preference model (Bradley–Terry) | 89.85 | 80.67 |
+| Cluster-level two-stage answer model | 85.96 | 73.27 |
+| kNN retrieval (PCA-64, k=10–200) | 83.58 | 68.74 |
+| Margin listwise loss (+ permutation augmentation) | 93.23 | ≤87.11 |
 
 Findings:
 
@@ -89,13 +95,25 @@ Findings:
 - **TF-IDF text features are pure overfitting here.** Adding a 2,000–8,000-term unigram+bigram TF-IDF block (vocabulary and IDF learned from train candidate texts only) drives train-hard to 99–100% while *lowering* val-hard by 3.5–5.5 points: the model memorizes question-specific lexical patterns that do not transfer. The supplied embeddings already cover the transferable semantics.
 - **Five further ideas, five null results.** (i) "Independent agreement" features (same answer but *dissimilar* trace, to discount paraphrase consensus): val-hard 87.11 vs 87.59 baseline — no gain, so paraphrase agreement appears just as informative as independent agreement for this generator. (ii) Block-wise L2 (weaker penalty on hand features, stronger on embeddings): identical 87.59 at best. (iii) Up-weighting single-correct groups 1.5–2×: monotonically worse (86.16 / 84.73) — the group-softmax loss already concentrates on hard groups, and extra emphasis only distorts calibration. (iv) **Arithmetic verification** — actually evaluating every "expr = value" claim in the trace (79.5% of candidates contain at least one checkable computation): a detected arithmetic error lowers P(correct) only from 75.8% to 73.7%, and the features leave val-hard at ≤87.11. Wrong candidates from this generator mostly fail at problem *setup* (wrong operation, missed condition), not at arithmetic — echoing the bus example in the guide. (v) Ensembling the group-softmax with a pointwise logistic model (probability averaging): 87.59 at best, no gain. All changes were kept out of the final model; every configuration within ±0.5 points of 87.6 was treated as noise.
 
-### 4.2 Why deterministic training
+### 4.2 Five structurally different approaches, five null results
+
+To check whether the plateau is a property of our model class rather than of the data, we implemented five approaches that differ *structurally* from the linear group-softmax ranker:
+
+1. **Reasoning-chain coherence.** We traced every number in a trace to its origin — question value or previously computed result — and flagged untraceable "magic numbers". The signal is real (a final answer traceable to the question or a prior step is correct 80.4% of the time vs 67.8% when untraceable — the strongest single feature we found), yet adding these features does not improve the model (≤87.35): the embedding + value features already encode it.
+2. **Nonlinear pairwise preferences.** A gradient-boosted Bradley–Terry model on ordered candidate pairs from hard groups (16.5k pairs) reaches only 80.67 — pairwise nonlinearity overfits just like the pointwise GBM.
+3. **Cluster-level answer model.** A two-stage model that first scores answer *clusters* with aggregate features, then picks within the winning cluster, drops to 73.27 — cluster aggregation destroys exactly the per-candidate detail that separates same-answer rivals, and in 2-2 splits the coarse cluster features are symmetric by construction.
+4. **kNN retrieval.** Scoring candidates by the correctness-weighted vote of their 10–200 nearest *training* candidates in a PCA-64 embedding space peaks at 68.74 alone and adds nothing in an ensemble — the 0.6B embedding space is not locally discriminative enough for retrieval.
+5. **Margin listwise loss + permutation augmentation.** Replacing the group-softmax loss with a smooth "best-correct beats best-wrong" margin loss gives 86.40; adding 4× order-permutation augmentation gives 87.11 — both below the submitted model.
+
+The consistent 86–88 ceiling across thirteen variants spanning linear/nonlinear, pointwise/pairwise/listwise, parametric/non-parametric and feature-engineering approaches is strong evidence that the remaining errors are **information-limited, not method-limited**: with only the trace text and a 0.6B whole-trace embedding available, 2-vs-2 answer splits are close to unresolvable without actually re-deriving the mathematics.
+
+### 4.3 Why deterministic training
 
 Mini-batch training of the same objective showed large seed variance (val-hard 81.9–87.6 across five seeds; 5-seed weight/probability ensembles landed at 86.4). Selecting the lucky seed would be tuning on validation noise. Switching to full-batch gradients from a zero init removes all randomness; across a 9-point (λ, lr, epochs) grid the result is a flat plateau at val-hard 86.4–87.6, and the submitted setting (λ=0.02, lr=0.02, 1500 epochs) sits mid-plateau rather than at a lucky spike.
 
-### 4.3 Frozen test result
+### 4.4 Frozen test result
 
-The method was frozen after Section 4.2 and run on test exactly once via the official pipeline:
+The method was frozen after Sections 4.2–4.3 and run on test exactly once via the official pipeline:
 
 | | accuracy |
 |---|---|
