@@ -1,0 +1,16 @@
+{
+  "train_acc_all": 93.56,
+  "train_acc_hard": 87.82,
+  "val_acc_all": 93.48,
+  "val_acc_hard": 87.59,
+  "train_seconds": 23.1,
+  "hyperparams": {
+    "lam": 0.02,
+    "lr": 0.02,
+    "epochs": 1500,
+    "objective": "group-softmax",
+    "init": "zeros",
+    "optimizer": "full-batch Adam",
+    "seed": "deterministic (no sampling)"
+  }
+}
