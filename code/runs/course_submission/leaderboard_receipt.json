@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-10-27T19:07:01.110Z",
+  "entries": [
+    {
+      "number": 276,
+      "author": "jiucaihehe",
+      "student_id": "3036707472",
+      "url": "https://github.com/xudongwu-0/xudongwu-0.github.io/issues/276",
+      "project": "mp2",
+      "score": 83.94004282655246,
+      "code_url": null,
+      "checkpoint_url": null,
+      "status": "self-reported",
+      "created_at": "2026-10-27T19:06:46Z",
+      "signature": "[\"mp2\",83.94004282655246,null,null,\"3036707472\",{\"algorithm\":\"RSA-OAEP-256+AES-256-GCM\",\"key_id\":\"7506-2026-v1\",\"wrapped_key\":\"TnRo+Db9p7zkwpBhnRlIdQGfWDHLsaYJaXYDXe1Pae0HOortR5AlCw53POrH/DXe9avvHJQVaasa4QThwUSUQGCPWswMx2W+pMd3kIpL2wca7n0eRnM+qeAwxxPuGU6SOot1FcGmhK7EbC2IhBAr0LwkPfmCl1WvkSJysvPbwBewKmeHaSwLPoU0Eybj28d//jxWoPl7GQS8x7d5rm4wKPlp1meKmAnCsDlk1sol9VJZL1L+VjF+wimZSiOipHD/HhN/KhRkmKgTOcl6Tsa7viBtsPADD221Vf4j4QGKLdvcgLkiWangAJHa0ZDJLkRoyWDxTp00KWSBHLhZDQIaZFkfBCaq7y5LVbL75RaVdJwh1WpcwY5lTAQQRxXv+XeB0w1XEXj9HPbyMRuxFZbu1SjvJpBQy9Odj3mmZ0XPoz5jKYB+qFLlRpw9Y33Sgv9B7L9HeKKiexctT/q5YYYCGFg+U9CotJaYzcixo2HUWgOtACTed3oWkDrYrph2bs4r\",\"iv\":\"eI+aM+Jj62VSZAEC\",\"ciphertext\":\"byoX5aJdGlT9FcSpH0YbgOt6dlcZDctLoATPCUtM1ZZPyvL+UQr4+qsgrW0RpMhYd1hW7YXrKmzaBCqIMPe6nhfevBc00jcw3ETyIiel/UQO+HVFmAexcAu8EGXmJFAGKD4amZcVk+NCUGvIaruUoH3+BJTX+xMVIhoif5MfDVx+/R3IhJDyFj/P9l2Zd5FfujIyvlCVcOYFMDgFg1/kOBEXixVNLiRQse2m3FqRHCRk0Lw+TJ1su5DhDHsEMXohEtep+TbN9dHaYEtR+JXx5uGQ521xQUqRunWwQWXcTXdlf8xZK673HPrQctgVQLrwH/oI1GmR0fF0b2+CWsjsmjtz/gzvoX5skjQ3T+dUVUTNmtdyLLNU5S9VbzbG5+ZwMvvqHxC/pXmGNAOvjCjczEw4/QuvJqEf6D11dFTHzNlvsFPg6K3IhN3NRJ3fXa8x5tUxs/9uo3l7NT20UQ==\"}]",
+      "edited_after_review": false,
+      "review_labels": [],
+      "artifact_issue": 276,
+      "artifact_status": "received",
+      "artifact_access": {
+        "code": null,
+        "checkpoint": null
+      },
+      "review_request_total": 0,
+      "review_request_count": 0,
+      "review_flag": false
+    }
+  ]
+}

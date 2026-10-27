@@ -1,5 +1,7 @@
 # Public repository and clean-clone verification
 
+**Later submission completed:** issue [#276](https://github.com/xudongwu-0/xudongwu-0.github.io/issues/276), student ID 3036707472, score 83.94004282655246%. The actual submitted version is `590532406a947c8c9d7eaf775887a8a069ec64d4`, with identical final inference assets. See [COURSE_SUBMISSION.md](COURSE_SUBMISSION.md). Pending-action statements below are historical publication-stage records.
+
 **28 October 2026 (UTC+8).** The owner authorized publishing the contextual model, its complete inference assets, source code, experiment records and English report to `jiucaihehe/DASE7506-MP2`.
 
 **Status: repository publication and clean-clone reproduction PASSED.** Publishing the repository is not itself a completed course submission.

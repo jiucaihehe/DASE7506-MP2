@@ -2,6 +2,8 @@
 
 **Frozen contextual model: official test accuracy 83.94004282655246% (392/467).**
 
+**Course submission completed: student ID 3036707472, [issue #276](https://github.com/xudongwu-0/xudongwu-0.github.io/issues/276). Score and encrypted artifact links were received. See [submission receipt](code/COURSE_SUBMISSION.md).**
+
 **For instructors: start with [FINAL_SUBMISSION.md](FINAL_SUBMISSION.md).** After installing `code/requirements-inference.txt`, run `python code/reproduce_final.py --split test` from the repository root. This fixed entrypoint verifies and evaluates only the final contextual checkpoint; it does not load the historical baseline.
 
 Validation accuracy is 93.6090% (747/798); mixed-correctness validation accuracy is 87.8282% (368/419). The model was selected using training/validation only, frozen, and then evaluated on test. A separate isolated reproduction with no reference files available during prediction produced all 467 identical choices. Test references are for scoring/reproduction only, never tuning.
@@ -66,6 +68,6 @@ cc8483cb50c6b7287613897b5b78178b2accd0780888b5ac227d46f1fc984537
 
 ## Submission status
 
-This version contains the selected code, complete assets, official JSON and English report. The recommended instructor-friendly version is `8cc53d5637f947ed648000cb039c5e9c054a86a7`. Its fixed helper reproduced 392/467 in the clean NumPy-only checkout and again with all historical model files absent. [PUBLICATION_CHECK.md](code/PUBLICATION_CHECK.md) provides verified immutable code/checkpoint links and detailed results. Supply the student's own ID and actually create the GitHub issue prepared by the course form; publishing the repository is not itself a leaderboard submission.
+The submitted source and checkpoint URLs are pinned to `590532406a947c8c9d7eaf775887a8a069ec64d4`, including all later experiment disclosures. The fixed model and instructor helper are unchanged from the earlier independently verified version `8cc53d5637f947ed648000cb039c5e9c054a86a7`. The helper reproduced 392/467 in a clean NumPy-only checkout and with historical models absent. [COURSE_SUBMISSION.md](code/COURSE_SUBMISSION.md) records the actual completed issue, exact submitted URLs and receipt checks; [PUBLICATION_CHECK.md](code/PUBLICATION_CHECK.md) preserves the earlier artifact audit.
 
 Use the same GitHub account/student ID for updates and provide both links by **31 October 2026, 23:59 (UTC+8)**. AI assistance and failed experiments are disclosed in the English report. Supplied data licenses and attribution remain intact.
