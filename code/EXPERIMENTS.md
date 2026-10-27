@@ -1,5 +1,9 @@
 # Experiment log (development scripts)
 
+This file describes the original development round. Later rounds are recorded in
+`OPTIMIZATION_ROUND2.md` and `OPTIMIZATION_ROUND3.md`. The current submitted
+checkpoint remains the 83.94% contextual model; round three did not replace it.
+
 These scripts document the development process. They train only on the train
 split and select on validation; test references were touched exactly once, by
 the frozen final pipeline (`predict.py --split test` + `score_predictions.py`).

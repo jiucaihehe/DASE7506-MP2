@@ -1,0 +1,340 @@
+{
+  "winner_indices": [
+    0,
+    3,
+    6
+  ],
+  "results": [
+    {
+      "config": {
+        "kind": "control",
+        "penalty": 1.0
+      },
+      "oof": {
+        "all_correct": 4329,
+        "all_n": 4755,
+        "hard_correct": 2087,
+        "hard_n": 2513,
+        "all_pct": 91.0410094637224,
+        "hard_pct": 83.04814962196578
+      }
+    },
+    {
+      "config": {
+        "kind": "messages",
+        "penalty": 0.1
+      },
+      "oof": {
+        "all_correct": 4306,
+        "all_n": 4755,
+        "hard_correct": 2064,
+        "hard_n": 2513,
+        "all_pct": 90.55730809674027,
+        "hard_pct": 82.13290887385595
+      }
+    },
+    {
+      "config": {
+        "kind": "messages",
+        "penalty": 1.0
+      },
+      "oof": {
+        "all_correct": 4319,
+        "all_n": 4755,
+        "hard_correct": 2077,
+        "hard_n": 2513,
+        "all_pct": 90.83070452155626,
+        "hard_pct": 82.65021886191802
+      }
+    },
+    {
+      "config": {
+        "kind": "messages",
+        "penalty": 10.0
+      },
+      "oof": {
+        "all_correct": 4329,
+        "all_n": 4755,
+        "hard_correct": 2087,
+        "hard_n": 2513,
+        "all_pct": 91.0410094637224,
+        "hard_pct": 83.04814962196578
+      }
+    },
+    {
+      "config": {
+        "kind": "energy",
+        "penalty": 0.1
+      },
+      "oof": {
+        "all_correct": 4298,
+        "all_n": 4755,
+        "hard_correct": 2056,
+        "hard_n": 2513,
+        "all_pct": 90.38906414300736,
+        "hard_pct": 81.81456426581775
+      }
+    },
+    {
+      "config": {
+        "kind": "energy",
+        "penalty": 1.0
+      },
+      "oof": {
+        "all_correct": 4325,
+        "all_n": 4755,
+        "hard_correct": 2083,
+        "hard_n": 2513,
+        "all_pct": 90.95688748685595,
+        "hard_pct": 82.88897731794668
+      }
+    },
+    {
+      "config": {
+        "kind": "energy",
+        "penalty": 10.0
+      },
+      "oof": {
+        "all_correct": 4327,
+        "all_n": 4755,
+        "hard_correct": 2085,
+        "hard_n": 2513,
+        "all_pct": 90.99894847528917,
+        "hard_pct": 82.96856346995622
+      }
+    }
+  ],
+  "convergence": [
+    {
+      "fold": 0,
+      "config": {
+        "kind": "control",
+        "penalty": 1.0
+      },
+      "success": true,
+      "iterations": 66,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_max": 2.0896128397106598e-07
+    },
+    {
+      "fold": 0,
+      "config": {
+        "kind": "messages",
+        "penalty": 0.1
+      },
+      "success": true,
+      "iterations": 184,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_max": 9.245013817103668e-07
+    },
+    {
+      "fold": 0,
+      "config": {
+        "kind": "messages",
+        "penalty": 1.0
+      },
+      "success": true,
+      "iterations": 170,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_max": 1.2332135408400058e-06
+    },
+    {
+      "fold": 0,
+      "config": {
+        "kind": "messages",
+        "penalty": 10.0
+      },
+      "success": true,
+      "iterations": 192,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_max": 2.121370702481626e-06
+    },
+    {
+      "fold": 0,
+      "config": {
+        "kind": "energy",
+        "penalty": 0.1
+      },
+      "success": true,
+      "iterations": 85,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_max": 1.2852241450220811e-06
+    },
+    {
+      "fold": 0,
+      "config": {
+        "kind": "energy",
+        "penalty": 1.0
+      },
+      "success": true,
+      "iterations": 110,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_max": 5.242444541995149e-07
+    },
+    {
+      "fold": 0,
+      "config": {
+        "kind": "energy",
+        "penalty": 10.0
+      },
+      "success": true,
+      "iterations": 165,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_max": 1.0407175862816877e-06
+    },
+    {
+      "fold": 1,
+      "config": {
+        "kind": "control",
+        "penalty": 1.0
+      },
+      "success": true,
+      "iterations": 70,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_max": 9.844497367624688e-07
+    },
+    {
+      "fold": 1,
+      "config": {
+        "kind": "messages",
+        "penalty": 0.1
+      },
+      "success": true,
+      "iterations": 146,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_max": 3.8793133435655394e-07
+    },
+    {
+      "fold": 1,
+      "config": {
+        "kind": "messages",
+        "penalty": 1.0
+      },
+      "success": true,
+      "iterations": 146,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_max": 1.0451396461148496e-06
+    },
+    {
+      "fold": 1,
+      "config": {
+        "kind": "messages",
+        "penalty": 10.0
+      },
+      "success": true,
+      "iterations": 219,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_max": 1.1589914629588718e-06
+    },
+    {
+      "fold": 1,
+      "config": {
+        "kind": "energy",
+        "penalty": 0.1
+      },
+      "success": true,
+      "iterations": 116,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_max": 3.8818676383996223e-07
+    },
+    {
+      "fold": 1,
+      "config": {
+        "kind": "energy",
+        "penalty": 1.0
+      },
+      "success": true,
+      "iterations": 105,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_max": 5.378403172288037e-07
+    },
+    {
+      "fold": 1,
+      "config": {
+        "kind": "energy",
+        "penalty": 10.0
+      },
+      "success": true,
+      "iterations": 163,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_max": 1.1614466856723488e-06
+    },
+    {
+      "fold": 2,
+      "config": {
+        "kind": "control",
+        "penalty": 1.0
+      },
+      "success": true,
+      "iterations": 64,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_max": 1.2627586613231379e-06
+    },
+    {
+      "fold": 2,
+      "config": {
+        "kind": "messages",
+        "penalty": 0.1
+      },
+      "success": true,
+      "iterations": 160,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_max": 4.944828491408506e-07
+    },
+    {
+      "fold": 2,
+      "config": {
+        "kind": "messages",
+        "penalty": 1.0
+      },
+      "success": true,
+      "iterations": 153,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_max": 1.2709622139834512e-06
+    },
+    {
+      "fold": 2,
+      "config": {
+        "kind": "messages",
+        "penalty": 10.0
+      },
+      "success": true,
+      "iterations": 196,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_max": 1.3505743117125588e-06
+    },
+    {
+      "fold": 2,
+      "config": {
+        "kind": "energy",
+        "penalty": 0.1
+      },
+      "success": true,
+      "iterations": 100,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_max": 8.437278493267537e-07
+    },
+    {
+      "fold": 2,
+      "config": {
+        "kind": "energy",
+        "penalty": 1.0
+      },
+      "success": true,
+      "iterations": 101,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_max": 7.385425784566836e-07
+    },
+    {
+      "fold": 2,
+      "config": {
+        "kind": "energy",
+        "penalty": 10.0
+      },
+      "success": true,
+      "iterations": 156,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_max": 1.6619603907565283e-06
+    }
+  ]
+}

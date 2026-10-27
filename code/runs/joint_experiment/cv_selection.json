@@ -1,0 +1,103 @@
+{
+  "winner": 0.08,
+  "results": [
+    {
+      "lam": 0.005,
+      "metrics": {
+        "all_correct": 4257,
+        "all_n": 4755,
+        "hard_correct": 2015,
+        "hard_n": 2513,
+        "all_pct": 89.52681388012618,
+        "hard_pct": 80.18304814962195
+      }
+    },
+    {
+      "lam": 0.02,
+      "metrics": {
+        "all_correct": 4280,
+        "all_n": 4755,
+        "hard_correct": 2038,
+        "hard_n": 2513,
+        "all_pct": 90.0105152471083,
+        "hard_pct": 81.09828889773179
+      }
+    },
+    {
+      "lam": 0.08,
+      "metrics": {
+        "all_correct": 4291,
+        "all_n": 4755,
+        "hard_correct": 2049,
+        "hard_n": 2513,
+        "all_pct": 90.24185068349107,
+        "hard_pct": 81.53601273378432
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "fold": 0,
+      "lam": 0.005,
+      "success": true,
+      "iterations": 237,
+      "gradient_max": 1.0190946063172988e-06
+    },
+    {
+      "fold": 0,
+      "lam": 0.02,
+      "success": true,
+      "iterations": 222,
+      "gradient_max": 7.121844392487479e-07
+    },
+    {
+      "fold": 0,
+      "lam": 0.08,
+      "success": true,
+      "iterations": 164,
+      "gradient_max": 7.678432203193485e-07
+    },
+    {
+      "fold": 1,
+      "lam": 0.005,
+      "success": true,
+      "iterations": 229,
+      "gradient_max": 6.483513029494699e-07
+    },
+    {
+      "fold": 1,
+      "lam": 0.02,
+      "success": true,
+      "iterations": 217,
+      "gradient_max": 1.5267561391911488e-06
+    },
+    {
+      "fold": 1,
+      "lam": 0.08,
+      "success": true,
+      "iterations": 158,
+      "gradient_max": 5.634719581295612e-07
+    },
+    {
+      "fold": 2,
+      "lam": 0.005,
+      "success": true,
+      "iterations": 228,
+      "gradient_max": 5.704857547618025e-07
+    },
+    {
+      "fold": 2,
+      "lam": 0.02,
+      "success": true,
+      "iterations": 220,
+      "gradient_max": 8.962722039903724e-07
+    },
+    {
+      "fold": 2,
+      "lam": 0.08,
+      "success": true,
+      "iterations": 162,
+      "gradient_max": 6.999110317127983e-07
+    }
+  ]
+}

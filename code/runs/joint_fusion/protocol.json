@@ -1,0 +1,13 @@
+{
+  "weights": [
+    0.0,
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "selection": "Max train OOF hard correct; earliest weight wins ties.",
+  "fusion": "Convex combination of contextual softmax and joint correctness marginals.",
+  "validation": "One selected fusion only; no test access."
+}

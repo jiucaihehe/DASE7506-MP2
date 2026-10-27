@@ -1,0 +1,12 @@
+{
+  "seed": 7506,
+  "folds": 3,
+  "lambdas": [
+    0.005,
+    0.02,
+    0.08
+  ],
+  "selection": "Train OOF hard correct; earliest tie; one validation evaluation.",
+  "model": "Joint likelihood of all correct/incorrect labels, constrained by parsed-answer equality.",
+  "promotion": "Must beat frozen validation hard 368/419; no test selection."
+}

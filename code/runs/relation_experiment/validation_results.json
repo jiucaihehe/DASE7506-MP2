@@ -1,0 +1,62 @@
+{
+  "frozen": {
+    "all_correct": 747,
+    "all_n": 798,
+    "hard_correct": 368,
+    "hard_n": 419,
+    "all_pct": 93.60902255639097,
+    "hard_pct": 87.82816229116945
+  },
+  "results": [
+    {
+      "config": {
+        "kind": "control",
+        "penalty": 1.0
+      },
+      "validation": {
+        "all_correct": 747,
+        "all_n": 798,
+        "hard_correct": 368,
+        "hard_n": 419,
+        "all_pct": 93.60902255639097,
+        "hard_pct": 87.82816229116945
+      },
+      "rescued": 0,
+      "regressed": 0
+    },
+    {
+      "config": {
+        "kind": "messages",
+        "penalty": 10.0
+      },
+      "validation": {
+        "all_correct": 747,
+        "all_n": 798,
+        "hard_correct": 368,
+        "hard_n": 419,
+        "all_pct": 93.60902255639097,
+        "hard_pct": 87.82816229116945
+      },
+      "rescued": 1,
+      "regressed": 1
+    },
+    {
+      "config": {
+        "kind": "energy",
+        "penalty": 10.0
+      },
+      "validation": {
+        "all_correct": 747,
+        "all_n": 798,
+        "hard_correct": 368,
+        "hard_n": 419,
+        "all_pct": 93.60902255639097,
+        "hard_pct": 87.82816229116945
+      },
+      "rescued": 0,
+      "regressed": 0
+    }
+  ],
+  "seconds": 91.36853180004982,
+  "test_evaluated": false
+}

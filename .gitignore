@@ -22,3 +22,5 @@ code/runs/submission_audit/website.mjs
 code/runs/submission_audit/arena.mjs
 code/runs/submission_audit/leaderboard.json
 code/runs/instructor_reproduction/
+code/runs/relation_experiment/*.npz
+code/runs/joint_experiment/*.npz

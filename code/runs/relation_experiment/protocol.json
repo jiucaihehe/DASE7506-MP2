@@ -1,0 +1,41 @@
+{
+  "seed": 7506,
+  "folds": 3,
+  "configs": [
+    {
+      "kind": "control",
+      "penalty": 1.0
+    },
+    {
+      "kind": "messages",
+      "penalty": 0.1
+    },
+    {
+      "kind": "messages",
+      "penalty": 1.0
+    },
+    {
+      "kind": "messages",
+      "penalty": 10.0
+    },
+    {
+      "kind": "energy",
+      "penalty": 0.1
+    },
+    {
+      "kind": "energy",
+      "penalty": 1.0
+    },
+    {
+      "kind": "energy",
+      "penalty": 10.0
+    }
+  ],
+  "selection": "One winner per family on train OOF hard correct; earliest tie.",
+  "promotion": "Validation hard must exceed frozen 368/419; test cannot select models.",
+  "baseline": "Same contextual features, L-BFGS instead of original Adam; matched control.",
+  "split_access": [
+    "train",
+    "validation"
+  ]
+}

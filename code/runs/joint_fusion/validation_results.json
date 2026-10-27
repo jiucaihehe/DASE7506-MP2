@@ -1,0 +1,20 @@
+{
+  "weight": 0.0,
+  "selected": {
+    "all_correct": 747,
+    "all_n": 798,
+    "hard_correct": 368,
+    "hard_n": 419,
+    "all_pct": 93.60902255639097,
+    "hard_pct": 87.82816229116945
+  },
+  "frozen": {
+    "all_correct": 747,
+    "all_n": 798,
+    "hard_correct": 368,
+    "hard_n": 419,
+    "all_pct": 93.60902255639097,
+    "hard_pct": 87.82816229116945
+  },
+  "test_evaluated": false
+}

@@ -1,0 +1,28 @@
+{
+  "lam": 0.08,
+  "selected": {
+    "all_correct": 733,
+    "all_n": 798,
+    "hard_correct": 354,
+    "hard_n": 419,
+    "all_pct": 91.8546365914787,
+    "hard_pct": 84.48687350835323
+  },
+  "frozen": {
+    "all_correct": 747,
+    "all_n": 798,
+    "hard_correct": 368,
+    "hard_n": 419,
+    "all_pct": 93.60902255639097,
+    "hard_pct": 87.82816229116945
+  },
+  "rescued": 11,
+  "regressed": 25,
+  "seconds": 22.989546999975573,
+  "test_evaluated": false,
+  "fit": {
+    "success": true,
+    "iterations": 203,
+    "gradient_max": 9.274352656525272e-07
+  }
+}
