@@ -1,0 +1,60 @@
+{
+  "verified_commit": "8a3e89043888bdd0a57e8572c63fba7cee463a94",
+  "unauthenticated_access": true,
+  "files": {
+    "README.md": {
+      "http_status": 200,
+      "bytes": 4902,
+      "sha256": "aafc0a1e2e32381186e6f72f94ef9556fa5208ece97c981f9d9d25a70923cea3",
+      "matches_clean_clone": true
+    },
+    "code/submission_candidate.py": {
+      "http_status": 200,
+      "bytes": 1158,
+      "sha256": "a39c0f98fcd36e6bdb9ed88bc749d0d88408c6d2ccf3d442037f7a78e2283cbf",
+      "matches_clean_clone": true
+    },
+    "code/method_bilinear.py": {
+      "http_status": 200,
+      "bytes": 1141,
+      "sha256": "ba4d0c19f93dbcaff852d858995475b9d9de9f0be8a31d460077778d1447ae3b",
+      "matches_clean_clone": true
+    },
+    "code/runs/final_candidate/config.json": {
+      "http_status": 200,
+      "bytes": 377,
+      "sha256": "c2c7b56d8009ea2334e7a88a8624c3528a32fdaeec3f36ee8321fa3223888662",
+      "matches_clean_clone": true
+    },
+    "code/runs/final_candidate/selected_bundle.npz": {
+      "http_status": 200,
+      "bytes": 306806,
+      "sha256": "cc8483cb50c6b7287613897b5b78178b2accd0780888b5ac227d46f1fc984537",
+      "matches_clean_clone": true
+    },
+    "code/runs/final_evaluation/test_score.json": {
+      "http_status": 200,
+      "bytes": 187,
+      "sha256": "903bab50c3bcfa2e83fb9e273184ff057fe0b23543e7eaa4bd2869f1164363b0",
+      "matches_clean_clone": true
+    },
+    "report/REPORT_V2.md": {
+      "http_status": 200,
+      "bytes": 11325,
+      "sha256": "14416f44bf22011a33c9982cc5a1d22784146f017fff1078db223c65cf79b92e",
+      "matches_clean_clone": true
+    },
+    "output/pdf/REPORT_V2.pdf": {
+      "http_status": 200,
+      "bytes": 12382,
+      "sha256": "b39b8edbec813d11379350130c54ff881c6961af26c3f30f0842606f07eaafb4",
+      "matches_clean_clone": true
+    },
+    "output/checkpoint/context_candidate.zip": {
+      "http_status": 200,
+      "bytes": 307417,
+      "sha256": "c4997d9775199c73c033e83001cffb4f0e57358ef711ed96a915677c366230e2",
+      "matches_clean_clone": true
+    }
+  }
+}

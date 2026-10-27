@@ -4,6 +4,8 @@
 
 **Technical result: PASS on the local audited checks.** This document records the initial pre-publication audit. Publication and clean-clone follow-up are tracked in `PUBLICATION_CHECK.md`. Creating the final course submission issue remains a separate owner action.
 
+**Follow-up resolved:** the owner-authorized publication succeeded at commit `8a3e89043888bdd0a57e8572c63fba7cee463a94`. Public source/checkpoint/report downloads and NumPy-only clean-clone reproduction passed. The initial NOT READY publication findings below are historical and have been resolved; see `PUBLICATION_CHECK.md` for usable pinned submission links.
+
 The unchanged frozen contextual model reproduces **392/467 = 83.94004282655246%**. Do not submit validation accuracy or the old model's score as this model's result. This audit did not fit a model, choose a configuration using test, or change inference code/weights.
 
 ## Authoritative materials checked

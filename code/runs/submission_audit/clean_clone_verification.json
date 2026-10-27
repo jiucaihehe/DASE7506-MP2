@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "verified_commit": "8a3e89043888bdd0a57e8572c63fba7cee463a94",
+  "clean_remote_clone": "C:\\Users\\a1821\\Documents\\ChatGPT\\7506pj2\\remote-verification-8a3e890",
+  "installed_packages": [
+    "numpy==2.5.4"
+  ],
+  "dependency_isolation": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "scipy": false,
+    "sklearn": false
+  },
+  "data_check": {
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "splits": {
+      "train": {
+        "questions": 4755,
+        "embedding_shape": [
+          4755,
+          4,
+          1024
+        ]
+      },
+      "validation": {
+        "questions": 798,
+        "embedding_shape": [
+          798,
+          4,
+          1024
+        ]
+      },
+      "test": {
+        "questions": 467,
+        "embedding_shape": [
+          467,
+          4,
+          1024
+        ]
+      }
+    },
+    "status": "passed"
+  },
+  "official_score": {
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "test",
+    "correct": 392,
+    "n": 467,
+    "accuracy": 83.94004282655246,
+    "scoring_seconds": 0.029136399971321225
+  },
+  "all_467_choices_match_frozen": true,
+  "inference_asset_bytes": 307183,
+  "checkpoint_sha256": "cc8483cb50c6b7287613897b5b78178b2accd0780888b5ac227d46f1fc984537",
+  "prediction_wall_seconds": 0.523411899979692,
+  "scoring_wall_seconds": 0.21666019997792318,
+  "total_wall_seconds": 0.7400720999576151,
+  "threads": 4,
+  "public_unauthenticated_links_passed": 9,
+  "readme_local_links": "passed",
+  "frozen_sources": "all LF-normalized digests match",
+  "clean_checkout_after_verification": true,
+  "no_retraining": true,
+  "test_used_for_selection": false,
+  "reference_machine_certified": false
+}

@@ -64,6 +64,6 @@ cc8483cb50c6b7287613897b5b78178b2accd0780888b5ac227d46f1fc984537
 
 ## Submission status
 
-This version contains the selected code, complete assets, official JSON and English report. Publication and clean-clone reproduction are recorded in [PUBLICATION_CHECK.md](code/PUBLICATION_CHECK.md), including immutable artifact links once verified. Supply the student's own ID and actually create the GitHub issue prepared by the course form; publishing the repository is not itself a leaderboard submission.
+This version contains the selected code, complete assets, official JSON and English report. Publication and clean-clone reproduction **passed** for commit `8a3e89043888bdd0a57e8572c63fba7cee463a94`; the clean NumPy-only environment reproduced 392/467. [PUBLICATION_CHECK.md](code/PUBLICATION_CHECK.md) provides verified immutable code/checkpoint links and detailed results. Supply the student's own ID and actually create the GitHub issue prepared by the course form; publishing the repository is not itself a leaderboard submission.
 
 Use the same GitHub account/student ID for updates and provide both links by **31 October 2026, 23:59 (UTC+8)**. AI assistance and failed experiments are disclosed in the English report. Supplied data licenses and attribution remain intact.
