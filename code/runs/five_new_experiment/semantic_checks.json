@@ -1,0 +1,6 @@
+{
+  "finite_difference_gradient_max_error": 1.0241535397526036e-10,
+  "mean_and_topic_dro_gradients_pass": true,
+  "operator_profile_check_pass": true,
+  "test_file_access_guard_pass": true
+}

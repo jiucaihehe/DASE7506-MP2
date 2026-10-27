@@ -1,0 +1,100 @@
+{
+  "split": "validation",
+  "threads": 4,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\a1821\\Documents\\ChatGPT\\7506pj2\\remote-verification-8a3e890\\.venv\\Scripts\\python.exe",
+  "numpy_version": "2.5.4",
+  "test_evaluated": false,
+  "records": [
+    {
+      "kind": "splines",
+      "official_score": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 746,
+        "n": 798,
+        "accuracy": 93.48370927318295,
+        "scoring_seconds": 0.03175040002679452
+      },
+      "predict_seconds": 0.7524758000508882,
+      "score_seconds": 0.22509820002596825,
+      "total_seconds": 0.9775740000768565,
+      "asset_bytes": 181856,
+      "sha256": "a8dc9d03c103a5aa3d5370c51fb8385eb288ba52df3a1ea80376952309faa8aa",
+      "diagnostic_choices_match": true,
+      "new_ids_reordering_repetition_empty_pass": true
+    },
+    {
+      "kind": "topic_dro",
+      "official_score": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 748,
+        "n": 798,
+        "accuracy": 93.734335839599,
+        "scoring_seconds": 0.03251360001740977
+      },
+      "predict_seconds": 0.6891416999860667,
+      "score_seconds": 0.2134209999931045,
+      "total_seconds": 0.9025626999791712,
+      "asset_bytes": 175734,
+      "sha256": "c626fad617f7472b31bcc10cb5afe845c6507b2279a6d9c87d24fd3177468342",
+      "diagnostic_choices_match": true,
+      "new_ids_reordering_repetition_empty_pass": true
+    },
+    {
+      "kind": "markov",
+      "official_score": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 747,
+        "n": 798,
+        "accuracy": 93.60902255639098,
+        "scoring_seconds": 0.05603140004677698
+      },
+      "predict_seconds": 1.928289000003133,
+      "score_seconds": 0.3300889999954961,
+      "total_seconds": 2.258377999998629,
+      "asset_bytes": 438318,
+      "sha256": "4ba4b92b3896d92cc65df15c5768cc2c580f55c476cbfc661654e669c81d45bd",
+      "diagnostic_choices_match": true,
+      "new_ids_reordering_repetition_empty_pass": true
+    },
+    {
+      "kind": "reference_plan",
+      "official_score": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 748,
+        "n": 798,
+        "accuracy": 93.734335839599,
+        "scoring_seconds": 0.054332700034137815
+      },
+      "predict_seconds": 0.8705732999951579,
+      "score_seconds": 0.2903480000095442,
+      "total_seconds": 1.160921300004702,
+      "asset_bytes": 196884,
+      "sha256": "b56fed14f6abf98cedbb54701192bc9a73131632a30de35ced78ebe802d14323",
+      "diagnostic_choices_match": true,
+      "new_ids_reordering_repetition_empty_pass": true
+    },
+    {
+      "kind": "nuisance_projection",
+      "official_score": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 746,
+        "n": 798,
+        "accuracy": 93.48370927318295,
+        "scoring_seconds": 0.04163449996849522
+      },
+      "predict_seconds": 0.7659476000117138,
+      "score_seconds": 0.22987929999362677,
+      "total_seconds": 0.9958269000053406,
+      "asset_bytes": 701850,
+      "sha256": "50a63b6cca17a52b652b838aa927337835a433c9ccbd736065a30c571b1c1be8",
+      "diagnostic_choices_match": true,
+      "new_ids_reordering_repetition_empty_pass": true
+    }
+  ]
+}

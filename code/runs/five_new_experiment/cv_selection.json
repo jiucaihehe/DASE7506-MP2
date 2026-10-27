@@ -1,0 +1,531 @@
+{
+  "winner_indices": [
+    0,
+    2,
+    3,
+    6,
+    7,
+    9
+  ],
+  "results": [
+    {
+      "config": {
+        "kind": "control",
+        "value": 1.0
+      },
+      "metrics": {
+        "all_correct": 4329,
+        "all_n": 4755,
+        "hard_correct": 2087,
+        "hard_n": 2513,
+        "all_pct": 91.0410094637224,
+        "hard_pct": 83.04814962196578
+      }
+    },
+    {
+      "config": {
+        "kind": "splines",
+        "value": 0.2
+      },
+      "metrics": {
+        "all_correct": 4323,
+        "all_n": 4755,
+        "hard_correct": 2081,
+        "hard_n": 2513,
+        "all_pct": 90.91482649842271,
+        "hard_pct": 82.80939116593713
+      }
+    },
+    {
+      "config": {
+        "kind": "splines",
+        "value": 2.0
+      },
+      "metrics": {
+        "all_correct": 4324,
+        "all_n": 4755,
+        "hard_correct": 2082,
+        "hard_n": 2513,
+        "all_pct": 90.93585699263933,
+        "hard_pct": 82.8491842419419
+      }
+    },
+    {
+      "config": {
+        "kind": "topic_dro",
+        "value": 0.1
+      },
+      "metrics": {
+        "all_correct": 4327,
+        "all_n": 4755,
+        "hard_correct": 2085,
+        "hard_n": 2513,
+        "all_pct": 90.99894847528917,
+        "hard_pct": 82.96856346995622
+      }
+    },
+    {
+      "config": {
+        "kind": "topic_dro",
+        "value": 0.5
+      },
+      "metrics": {
+        "all_correct": 4325,
+        "all_n": 4755,
+        "hard_correct": 2083,
+        "hard_n": 2513,
+        "all_pct": 90.95688748685595,
+        "hard_pct": 82.88897731794668
+      }
+    },
+    {
+      "config": {
+        "kind": "markov",
+        "value": 0.2
+      },
+      "metrics": {
+        "all_correct": 4326,
+        "all_n": 4755,
+        "hard_correct": 2084,
+        "hard_n": 2513,
+        "all_pct": 90.97791798107255,
+        "hard_pct": 82.92877039395145
+      }
+    },
+    {
+      "config": {
+        "kind": "markov",
+        "value": 2.0
+      },
+      "metrics": {
+        "all_correct": 4327,
+        "all_n": 4755,
+        "hard_correct": 2085,
+        "hard_n": 2513,
+        "all_pct": 90.99894847528917,
+        "hard_pct": 82.96856346995622
+      }
+    },
+    {
+      "config": {
+        "kind": "reference_plan",
+        "value": 0.2
+      },
+      "metrics": {
+        "all_correct": 4328,
+        "all_n": 4755,
+        "hard_correct": 2086,
+        "hard_n": 2513,
+        "all_pct": 91.01997896950579,
+        "hard_pct": 83.008356545961
+      }
+    },
+    {
+      "config": {
+        "kind": "reference_plan",
+        "value": 2.0
+      },
+      "metrics": {
+        "all_correct": 4328,
+        "all_n": 4755,
+        "hard_correct": 2086,
+        "hard_n": 2513,
+        "all_pct": 91.01997896950579,
+        "hard_pct": 83.008356545961
+      }
+    },
+    {
+      "config": {
+        "kind": "nuisance_projection",
+        "value": 0.2
+      },
+      "metrics": {
+        "all_correct": 4331,
+        "all_n": 4755,
+        "hard_correct": 2089,
+        "hard_n": 2513,
+        "all_pct": 91.08307045215562,
+        "hard_pct": 83.12773577397533
+      }
+    },
+    {
+      "config": {
+        "kind": "nuisance_projection",
+        "value": 2.0
+      },
+      "metrics": {
+        "all_correct": 4327,
+        "all_n": 4755,
+        "hard_correct": 2085,
+        "hard_n": 2513,
+        "all_pct": 90.99894847528917,
+        "hard_pct": 82.96856346995622
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "fold": 0,
+      "config": {
+        "kind": "control",
+        "value": 1.0
+      },
+      "success": true,
+      "iterations": 66,
+      "gradient_max": 2.0896128288859853e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 0,
+      "config": {
+        "kind": "splines",
+        "value": 0.2
+      },
+      "success": true,
+      "iterations": 80,
+      "gradient_max": 7.795864142094147e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 0,
+      "config": {
+        "kind": "splines",
+        "value": 2.0
+      },
+      "success": true,
+      "iterations": 93,
+      "gradient_max": 8.989903883367071e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 0,
+      "config": {
+        "kind": "topic_dro",
+        "value": 0.1
+      },
+      "success": true,
+      "iterations": 68,
+      "gradient_max": 4.622199019526822e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 0,
+      "config": {
+        "kind": "topic_dro",
+        "value": 0.5
+      },
+      "success": true,
+      "iterations": 65,
+      "gradient_max": 3.4282275129240633e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 0,
+      "config": {
+        "kind": "markov",
+        "value": 0.2
+      },
+      "success": true,
+      "iterations": 68,
+      "gradient_max": 4.613911120483413e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 0,
+      "config": {
+        "kind": "markov",
+        "value": 2.0
+      },
+      "success": true,
+      "iterations": 68,
+      "gradient_max": 7.335624891031955e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 0,
+      "config": {
+        "kind": "reference_plan",
+        "value": 0.2
+      },
+      "success": true,
+      "iterations": 67,
+      "gradient_max": 1.0818875125369852e-06,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 0,
+      "config": {
+        "kind": "reference_plan",
+        "value": 2.0
+      },
+      "success": true,
+      "iterations": 68,
+      "gradient_max": 4.349143923244262e-06,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 0,
+      "config": {
+        "kind": "nuisance_projection",
+        "value": 0.2
+      },
+      "success": true,
+      "iterations": 64,
+      "gradient_max": 1.6166057670921608e-06,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 0,
+      "config": {
+        "kind": "nuisance_projection",
+        "value": 2.0
+      },
+      "success": true,
+      "iterations": 73,
+      "gradient_max": 2.455885080958342e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 1,
+      "config": {
+        "kind": "control",
+        "value": 1.0
+      },
+      "success": true,
+      "iterations": 70,
+      "gradient_max": 9.844528191986848e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 1,
+      "config": {
+        "kind": "splines",
+        "value": 0.2
+      },
+      "success": true,
+      "iterations": 88,
+      "gradient_max": 9.560769096982101e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 1,
+      "config": {
+        "kind": "splines",
+        "value": 2.0
+      },
+      "success": true,
+      "iterations": 91,
+      "gradient_max": 2.5957797609279035e-06,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 1,
+      "config": {
+        "kind": "topic_dro",
+        "value": 0.1
+      },
+      "success": true,
+      "iterations": 68,
+      "gradient_max": 3.915587974244873e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 1,
+      "config": {
+        "kind": "topic_dro",
+        "value": 0.5
+      },
+      "success": true,
+      "iterations": 71,
+      "gradient_max": 9.997445571670142e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 1,
+      "config": {
+        "kind": "markov",
+        "value": 0.2
+      },
+      "success": true,
+      "iterations": 70,
+      "gradient_max": 2.0260465391349833e-06,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 1,
+      "config": {
+        "kind": "markov",
+        "value": 2.0
+      },
+      "success": true,
+      "iterations": 71,
+      "gradient_max": 8.199779724968152e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 1,
+      "config": {
+        "kind": "reference_plan",
+        "value": 0.2
+      },
+      "success": true,
+      "iterations": 74,
+      "gradient_max": 2.7512713686572016e-06,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 1,
+      "config": {
+        "kind": "reference_plan",
+        "value": 2.0
+      },
+      "success": true,
+      "iterations": 73,
+      "gradient_max": 4.2500662530541716e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 1,
+      "config": {
+        "kind": "nuisance_projection",
+        "value": 0.2
+      },
+      "success": true,
+      "iterations": 68,
+      "gradient_max": 2.513958964086519e-06,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 1,
+      "config": {
+        "kind": "nuisance_projection",
+        "value": 2.0
+      },
+      "success": true,
+      "iterations": 74,
+      "gradient_max": 7.265934996862688e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 2,
+      "config": {
+        "kind": "control",
+        "value": 1.0
+      },
+      "success": true,
+      "iterations": 64,
+      "gradient_max": 1.2627585811472546e-06,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 2,
+      "config": {
+        "kind": "splines",
+        "value": 0.2
+      },
+      "success": true,
+      "iterations": 78,
+      "gradient_max": 1.8442182964772263e-06,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 2,
+      "config": {
+        "kind": "splines",
+        "value": 2.0
+      },
+      "success": true,
+      "iterations": 93,
+      "gradient_max": 3.491446388349459e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 2,
+      "config": {
+        "kind": "topic_dro",
+        "value": 0.1
+      },
+      "success": true,
+      "iterations": 66,
+      "gradient_max": 1.8603756559952556e-06,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 2,
+      "config": {
+        "kind": "topic_dro",
+        "value": 0.5
+      },
+      "success": true,
+      "iterations": 66,
+      "gradient_max": 1.2589756071892944e-06,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 2,
+      "config": {
+        "kind": "markov",
+        "value": 0.2
+      },
+      "success": true,
+      "iterations": 68,
+      "gradient_max": 4.658479421403884e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 2,
+      "config": {
+        "kind": "markov",
+        "value": 2.0
+      },
+      "success": true,
+      "iterations": 69,
+      "gradient_max": 1.0060734476965028e-06,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 2,
+      "config": {
+        "kind": "reference_plan",
+        "value": 0.2
+      },
+      "success": true,
+      "iterations": 66,
+      "gradient_max": 1.2110049266594348e-06,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 2,
+      "config": {
+        "kind": "reference_plan",
+        "value": 2.0
+      },
+      "success": true,
+      "iterations": 69,
+      "gradient_max": 1.720537184376602e-06,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 2,
+      "config": {
+        "kind": "nuisance_projection",
+        "value": 0.2
+      },
+      "success": true,
+      "iterations": 67,
+      "gradient_max": 1.5899819325562899e-06,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "fold": 2,
+      "config": {
+        "kind": "nuisance_projection",
+        "value": 2.0
+      },
+      "success": true,
+      "iterations": 72,
+      "gradient_max": 4.214165179873791e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  ]
+}

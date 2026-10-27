@@ -24,3 +24,5 @@ code/runs/submission_audit/leaderboard.json
 code/runs/instructor_reproduction/
 code/runs/relation_experiment/*.npz
 code/runs/joint_experiment/*.npz
+code/runs/five_new_experiment/oof.npz
+code/runs/five_new_experiment/*_predictions.json
