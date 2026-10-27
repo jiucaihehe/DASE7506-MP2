@@ -1,0 +1,22 @@
+{
+  "candidates": [
+    "topic_dro",
+    "reference_plan"
+  ],
+  "checkpoint_sha256": {
+    "topic_dro": "c626fad617f7472b31bcc10cb5afe845c6507b2279a6d9c87d24fd3177468342",
+    "reference_plan": "b56fed14f6abf98cedbb54701192bc9a73131632a30de35ced78ebe802d14323"
+  },
+  "source_sha256": {
+    "method_five_new.py": "46844d106cb6df03edf4db1bfcd950dc7d3ddef3178901417f32f78e06aafbde",
+    "features.py": "00112f1f4dfdc8187982ad1330765a34141b5d0bd1a93c14a62342b5db93d30a",
+    "common.py": "88d5743d0cbacc72afbc364e1ddbfa1672ede05909e3f3b9e0e2d26f22d98fb8",
+    "predict.py": "3fa8ea48230bef6a75f79bc5b1908c37ddddeda190dd48b5e3e8f9e660658ae6",
+    "score_predictions.py": "3490b2d9c4a0b547ff7849c8c72229a7dee2d9c71f506bb43be1a5eb5a325087"
+  },
+  "submitted_checkpoint_sha256": "cc8483cb50c6b7287613897b5b78178b2accd0780888b5ac227d46f1fc984537",
+  "protocol": "Both candidates fixed before test; both prediction files complete before either scoring. Report both; no test-based model selection or tuning.",
+  "threads": 4,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\a1821\\Documents\\ChatGPT\\7506pj2\\remote-verification-8a3e890\\.venv\\Scripts\\python.exe"
+}

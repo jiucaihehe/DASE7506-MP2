@@ -1,0 +1,79 @@
+{
+  "records": {
+    "topic_dro": {
+      "prediction_seconds": 0.5503437999868765,
+      "asset_bytes": 175734,
+      "predict_command": [
+        "C:\\Users\\a1821\\Documents\\ChatGPT\\7506pj2\\remote-verification-8a3e890\\.venv\\Scripts\\python.exe",
+        "predict.py",
+        "--method",
+        "method_five_new.py",
+        "--checkpoint",
+        "runs\\five_new_experiment\\topic_dro_bundle.npz",
+        "--split",
+        "test",
+        "--output",
+        "C:\\Users\\a1821\\Documents\\ChatGPT\\7506pj2\\DASE7506-MP2\\code\\runs\\round4_frozen_test\\topic_dro_predictions.json"
+      ],
+      "scoring_seconds": 0.252559199987445,
+      "total_seconds": 0.8029029999743216,
+      "official_score": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "test",
+        "correct": 389,
+        "n": 467,
+        "accuracy": 83.29764453961457,
+        "scoring_seconds": 0.015869199996814132
+      },
+      "score_command": [
+        "C:\\Users\\a1821\\Documents\\ChatGPT\\7506pj2\\remote-verification-8a3e890\\.venv\\Scripts\\python.exe",
+        "score_predictions.py",
+        "--split",
+        "test",
+        "--predictions",
+        "C:\\Users\\a1821\\Documents\\ChatGPT\\7506pj2\\DASE7506-MP2\\code\\runs\\round4_frozen_test\\topic_dro_predictions.json",
+        "--output",
+        "C:\\Users\\a1821\\Documents\\ChatGPT\\7506pj2\\DASE7506-MP2\\code\\runs\\round4_frozen_test\\topic_dro_score.json"
+      ]
+    },
+    "reference_plan": {
+      "prediction_seconds": 0.608289199997671,
+      "asset_bytes": 196884,
+      "predict_command": [
+        "C:\\Users\\a1821\\Documents\\ChatGPT\\7506pj2\\remote-verification-8a3e890\\.venv\\Scripts\\python.exe",
+        "predict.py",
+        "--method",
+        "method_five_new.py",
+        "--checkpoint",
+        "runs\\five_new_experiment\\reference_plan_bundle.npz",
+        "--split",
+        "test",
+        "--output",
+        "C:\\Users\\a1821\\Documents\\ChatGPT\\7506pj2\\DASE7506-MP2\\code\\runs\\round4_frozen_test\\reference_plan_predictions.json"
+      ],
+      "scoring_seconds": 0.2750603999593295,
+      "total_seconds": 0.8833495999570005,
+      "official_score": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "test",
+        "correct": 388,
+        "n": 467,
+        "accuracy": 83.08351177730192,
+        "scoring_seconds": 0.030956400034483522
+      },
+      "score_command": [
+        "C:\\Users\\a1821\\Documents\\ChatGPT\\7506pj2\\remote-verification-8a3e890\\.venv\\Scripts\\python.exe",
+        "score_predictions.py",
+        "--split",
+        "test",
+        "--predictions",
+        "C:\\Users\\a1821\\Documents\\ChatGPT\\7506pj2\\DASE7506-MP2\\code\\runs\\round4_frozen_test\\reference_plan_predictions.json",
+        "--output",
+        "C:\\Users\\a1821\\Documents\\ChatGPT\\7506pj2\\DASE7506-MP2\\code\\runs\\round4_frozen_test\\reference_plan_score.json"
+      ]
+    }
+  },
+  "current_submission_unchanged": true,
+  "no_training_or_parameter_changes": true,
+  "test_based_selection_performed": false
+}

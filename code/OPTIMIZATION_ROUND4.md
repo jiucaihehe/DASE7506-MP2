@@ -1,5 +1,9 @@
 # Five new families: validation-only development
 
+**Follow-up:** after the initial development phase below, the owner explicitly
+requested test evaluation of the two 369/419 candidates. Both frozen results are
+reported in the final section. The initial validation-only records are preserved.
+
 28 October 2026. Two new families reach **369/419 (88.07%)** on mixed-correctness
 validation groups, compared with **368/419 (87.83%)** for the frozen submission.
 This is one additional correct selection, not a demonstrated test improvement.
@@ -152,3 +156,42 @@ are ignored by Git. The active teacher entrypoint remains
 OpenAI Codex proposed and implemented these five experiments, performed the checks
 and drafted this English record. No external dataset, pretrained weight or API was
 used. The student remains responsible for understanding the work.
+
+## Authorized frozen test follow-up
+
+On 28 October 2026, after all five development results and checkpoints were
+published at commit `ff452f10febe6612e9e6bda6e2241063d44ead43`, the owner explicitly
+requested official test scores for the two candidates with 369/419 validation
+hard accuracy. Neither method, checkpoint nor hyperparameter was changed.
+
+`evaluate_round4_frozen.py` first verifies both checkpoint hashes against the
+pre-existing validation verification record and writes `freeze.json`. It completes
+both prediction files before either independent official scoring process runs.
+Both results are reported; no further fitting, adjustment or test-based model
+selection is performed. The existing submitted method remains unchanged, as
+specified before this follow-up evaluation.
+
+| Frozen method | Official test correct /467 | Official test accuracy | Fresh prediction + scoring |
+|---|---:|---:|---:|
+| Existing submitted contextual model (previously verified) | 392 | 83.94004282655246% | Previous measurement |
+| Context-cluster robust training | 389 | 83.29764453961457% | 0.803 s |
+| Reference-operation plan supervision | 388 | 83.08351177730192% | 0.883 s |
+
+These one-question validation gains did not transfer to higher test accuracy.
+This is an evaluation finding, not a basis for adjusting the models or selecting
+between them on test. No new leaderboard score is claimed. All earlier statements
+about no test access refer to the initial development phase, before this explicit
+follow-up request. This follow-up is disclosed rather than presented as an
+untouched one-shot test protocol for the entire project.
+
+The exact official score JSONs, complete predictions, source/asset hashes and
+fresh-process resource measurements are in `runs/round4_frozen_test/`. The runtime
+was the same NumPy-only Python 3.12 environment on the local Windows CPU, with
+four numerical threads. No reference Xeon timing is claimed. To reproduce both
+unchanged checkpoints without training, from `code/`:
+
+```bash
+python evaluate_round4_frozen.py --output runs/round4_test_reproduction
+```
+
+The output directory must be new to prevent overwriting existing evidence.
