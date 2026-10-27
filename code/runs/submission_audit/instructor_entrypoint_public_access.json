@@ -1,0 +1,18 @@
+{
+  "verified_commit": "8cc53d5637f947ed648000cb039c5e9c054a86a7",
+  "unauthenticated_access": true,
+  "files": {
+    "FINAL_SUBMISSION.md": {
+      "http_status": 200,
+      "bytes": 3909
+    },
+    "code/reproduce_final.py": {
+      "http_status": 200,
+      "bytes": 3023
+    },
+    "code/runs/final_candidate/selected_bundle.npz": {
+      "http_status": 200,
+      "bytes": 306806
+    }
+  }
+}

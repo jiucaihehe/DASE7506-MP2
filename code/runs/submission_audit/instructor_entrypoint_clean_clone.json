@@ -1,0 +1,24 @@
+{
+  "method": "submission_candidate.py",
+  "implementation": "method_bilinear.py",
+  "checkpoint": "runs/final_candidate/selected_bundle.npz",
+  "checkpoint_sha256": "cc8483cb50c6b7287613897b5b78178b2accd0780888b5ac227d46f1fc984537",
+  "historical_model_used": false,
+  "training_performed": false,
+  "threads": 4,
+  "official_score": {
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "test",
+    "correct": 392,
+    "n": 467,
+    "accuracy": 83.94004282655246,
+    "scoring_seconds": 0.02896369999507442
+  },
+  "prediction_wall_seconds": 0.6040448999847285,
+  "scoring_wall_seconds": 0.27351460000500083,
+  "total_wall_seconds": 0.8775594999897294,
+  "verified_commit": "8cc53d5637f947ed648000cb039c5e9c054a86a7",
+  "packages": [
+    "numpy==2.5.4"
+  ]
+}

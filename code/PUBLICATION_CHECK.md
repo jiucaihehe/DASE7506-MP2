@@ -6,19 +6,19 @@
 
 ## Immutable published version and submission fields
 
-Verified source/artifact commit: **`8a3e89043888bdd0a57e8572c63fba7cee463a94`**.
+Recommended instructor-friendly source/artifact commit: **`8cc53d5637f947ed648000cb039c5e9c054a86a7`**. This adds a fixed reproduction helper and instructor guide; the frozen model and assets are unchanged from the initial publication.
 
-- Code link: <https://github.com/jiucaihehe/DASE7506-MP2/tree/8a3e89043888bdd0a57e8572c63fba7cee463a94>
-- Complete checkpoint ZIP: <https://raw.githubusercontent.com/jiucaihehe/DASE7506-MP2/8a3e89043888bdd0a57e8572c63fba7cee463a94/output/checkpoint/context_candidate.zip>
-- Alternative complete-checkpoint folder: <https://github.com/jiucaihehe/DASE7506-MP2/tree/8a3e89043888bdd0a57e8572c63fba7cee463a94/code/runs/final_candidate>
-- Official score JSON: <https://github.com/jiucaihehe/DASE7506-MP2/blob/8a3e89043888bdd0a57e8572c63fba7cee463a94/code/runs/final_evaluation/test_score.json>
-- English report PDF: <https://github.com/jiucaihehe/DASE7506-MP2/blob/8a3e89043888bdd0a57e8572c63fba7cee463a94/output/pdf/REPORT_V2.pdf>
+- Code link: <https://github.com/jiucaihehe/DASE7506-MP2/tree/8cc53d5637f947ed648000cb039c5e9c054a86a7>
+- Complete checkpoint ZIP: <https://raw.githubusercontent.com/jiucaihehe/DASE7506-MP2/8cc53d5637f947ed648000cb039c5e9c054a86a7/output/checkpoint/context_candidate.zip>
+- Alternative complete-checkpoint folder: <https://github.com/jiucaihehe/DASE7506-MP2/tree/8cc53d5637f947ed648000cb039c5e9c054a86a7/code/runs/final_candidate>
+- Official score JSON: <https://github.com/jiucaihehe/DASE7506-MP2/blob/8cc53d5637f947ed648000cb039c5e9c054a86a7/code/runs/final_evaluation/test_score.json>
+- English report PDF: <https://github.com/jiucaihehe/DASE7506-MP2/blob/8cc53d5637f947ed648000cb039c5e9c054a86a7/output/pdf/REPORT_V2.pdf>
 
 Enter **83.94004282655246** in the course accuracy field. Use the student's correct ID and the same GitHub account for updates. The ZIP contains exactly `config.json` and `selected_bundle.npz`; extract both together. Source and asset links above are pinned to the same verified commit. Later documentation-only updates do not change that source/artifact version.
 
-## Clean-clone result
+## Original clean-clone result
 
-The version was cloned from GitHub into a separate checkout rather than copied from the development directory. A new Python 3.12 virtual environment installed only `numpy==2.5.4`. SciPy and scikit-learn were absent. The commands from the repository documentation were run against the published assets, without retraining.
+The initial model publication `8a3e89043888bdd0a57e8572c63fba7cee463a94` was cloned from GitHub into a separate checkout rather than copied from the development directory. A new Python 3.12 virtual environment installed only `numpy==2.5.4`. SciPy and scikit-learn were absent. The commands from the repository documentation were run against the published assets, without retraining.
 
 | Check | Result |
 |---|---|
@@ -47,3 +47,9 @@ The frozen target result is **83.94004282655246% (392/467)**. The checkpoint SHA
 The published repository contains training code, fixed inference code/assets, official score JSON, experiment/resource records, seeds/settings, hashes, English report, reproduction commands and AI/reuse disclosure. The official data, parser and scorer are unchanged. The original baseline is explicitly distinguished from the current model. The inspected training path uses train only; the recorded selection uses validation; test is used for frozen final scoring and reproduction.
 
 The student should review and understand the implementation and report. The final form still needs the correct student ID and an actual GitHub issue created from the prepared form by **31 October 2026, 23:59 (UTC+8)**, with both verified links. No leaderboard issue was created during repository publication. Thus **repository artifact readiness passes**, while **actual course submission remains pending**.
+
+## Instructor entrypoint follow-up
+
+The recommended version `8cc53d5637f947ed648000cb039c5e9c054a86a7` was fetched from GitHub and evaluated using `python code/reproduce_final.py --split test` in the clean NumPy-only environment. It again produced 392/467. A second minimal directory omitted historical `submission.py`, historical `model_bundle.npz`, the historical report, the training module and saved predictions entirely. The fixed entrypoint still reproduced all 467 final choices and the same official score.
+
+See `runs/submission_audit/instructor_entrypoint_clean_clone.json` and `instructor_entrypoint_verification.json`. Start with the root `FINAL_SUBMISSION.md`; no model discovery or historical fallback is performed. The original publication checks remain above as historical evidence; the new version differs only in evaluation/documentation helpers, not in model inference or assets.

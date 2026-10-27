@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "verified_commit": "8cc53d5637f947ed648000cb039c5e9c054a86a7",
+  "packages": [
+    "numpy==2.5.4"
+  ],
+  "historical_files_absent": [
+    "code/submission.py",
+    "code/runs/model_bundle.npz",
+    "report/REPORT.md",
+    "code/train_final.py",
+    "code/runs/final_evaluation/test_predictions.json"
+  ],
+  "final_source_files": [
+    "reproduce_final.py",
+    "predict.py",
+    "score_predictions.py",
+    "common.py",
+    "features.py",
+    "submission_candidate.py",
+    "method_bilinear.py"
+  ],
+  "all_467_choices_match_frozen": true,
+  "official_score": {
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "test",
+    "correct": 392,
+    "n": 467,
+    "accuracy": 83.94004282655246,
+    "scoring_seconds": 0.08602180000161752
+  },
+  "checkpoint_sha256": "cc8483cb50c6b7287613897b5b78178b2accd0780888b5ac227d46f1fc984537",
+  "historical_model_used": false,
+  "training_performed": false,
+  "prediction_wall_seconds": 0.6944773999857716,
+  "scoring_wall_seconds": 0.3212622000137344,
+  "total_wall_seconds": 1.015739599999506,
+  "threads": 4
+}
