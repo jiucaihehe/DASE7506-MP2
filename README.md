@@ -2,6 +2,8 @@
 
 **Frozen contextual model: official test accuracy 83.94004282655246% (392/467).**
 
+**For instructors: start with [FINAL_SUBMISSION.md](FINAL_SUBMISSION.md).** After installing `code/requirements-inference.txt`, run `python code/reproduce_final.py --split test` from the repository root. This fixed entrypoint verifies and evaluates only the final contextual checkpoint; it does not load the historical baseline.
+
 Validation accuracy is 93.6090% (747/798); mixed-correctness validation accuracy is 87.8282% (368/419). The model was selected using training/validation only, frozen, and then evaluated on test. A separate isolated reproduction with no reference files available during prediction produced all 467 identical choices. Test references are for scoring/reproduction only, never tuning.
 
 The method augments the original linear group-softmax ranker with strongly regularized interactions between shared trace context and candidate reliability features. Training uses only the supplied train bank. Inference is offline, CPU-only and NumPy-only. All inference assets total 307,183 bytes (~0.293 MiB). The recorded complete test prediction plus separate scoring took 0.914 s on an Intel Core Ultra 9 275HX, four threads; reference-machine eligibility remains subject to instructor verification.
