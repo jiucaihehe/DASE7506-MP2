@@ -1,0 +1,26 @@
+{
+  "config": {
+    "kind": "hand_gate",
+    "dim": 8,
+    "penalty": 1.0
+  },
+  "baseline": {
+    "all_correct": 746,
+    "all_n": 798,
+    "hard_correct": 367,
+    "hard_n": 419,
+    "all_pct": 93.48370927318295,
+    "hard_pct": 87.58949880668257
+  },
+  "selected": {
+    "all_correct": 747,
+    "all_n": 798,
+    "hard_correct": 368,
+    "hard_n": 419,
+    "all_pct": 93.60902255639097,
+    "hard_pct": 87.82816229116945
+  },
+  "rescued": 2,
+  "regressed": 1,
+  "seconds": 327.39962879999075
+}

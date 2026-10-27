@@ -1,0 +1,100 @@
+{
+  "selected": {
+    "threshold": 1.01,
+    "oof": {
+      "all_correct": 4326,
+      "all_n": 4755,
+      "hard_correct": 2084,
+      "hard_n": 2513,
+      "all_pct": 90.97791798107255,
+      "hard_pct": 82.92877039395145
+    }
+  },
+  "baseline": {
+    "all_correct": 4326,
+    "all_n": 4755,
+    "hard_correct": 2084,
+    "hard_n": 2513,
+    "all_pct": 90.97791798107255,
+    "hard_pct": 82.92877039395145
+  },
+  "results": [
+    {
+      "threshold": 0.35,
+      "oof": {
+        "all_correct": 4321,
+        "all_n": 4755,
+        "hard_correct": 2079,
+        "hard_n": 2513,
+        "all_pct": 90.87276550998948,
+        "hard_pct": 82.72980501392759
+      }
+    },
+    {
+      "threshold": 0.45,
+      "oof": {
+        "all_correct": 4323,
+        "all_n": 4755,
+        "hard_correct": 2081,
+        "hard_n": 2513,
+        "all_pct": 90.91482649842271,
+        "hard_pct": 82.80939116593713
+      }
+    },
+    {
+      "threshold": 0.55,
+      "oof": {
+        "all_correct": 4325,
+        "all_n": 4755,
+        "hard_correct": 2083,
+        "hard_n": 2513,
+        "all_pct": 90.95688748685595,
+        "hard_pct": 82.88897731794668
+      }
+    },
+    {
+      "threshold": 0.65,
+      "oof": {
+        "all_correct": 4326,
+        "all_n": 4755,
+        "hard_correct": 2084,
+        "hard_n": 2513,
+        "all_pct": 90.97791798107255,
+        "hard_pct": 82.92877039395145
+      }
+    },
+    {
+      "threshold": 0.75,
+      "oof": {
+        "all_correct": 4326,
+        "all_n": 4755,
+        "hard_correct": 2084,
+        "hard_n": 2513,
+        "all_pct": 90.97791798107255,
+        "hard_pct": 82.92877039395145
+      }
+    },
+    {
+      "threshold": 0.85,
+      "oof": {
+        "all_correct": 4326,
+        "all_n": 4755,
+        "hard_correct": 2084,
+        "hard_n": 2513,
+        "all_pct": 90.97791798107255,
+        "hard_pct": 82.92877039395145
+      }
+    },
+    {
+      "threshold": 1.01,
+      "oof": {
+        "all_correct": 4326,
+        "all_n": 4755,
+        "hard_correct": 2084,
+        "hard_n": 2513,
+        "all_pct": 90.97791798107255,
+        "hard_pct": 82.92877039395145
+      }
+    }
+  ]
+}

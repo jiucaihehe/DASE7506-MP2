@@ -1,0 +1,92 @@
+{
+  "seed": 7506,
+  "folds": 3,
+  "selection": "pooled training OOF hard accuracy; tie: earliest configuration",
+  "configs": [
+    {
+      "kind": "baseline"
+    },
+    {
+      "kind": "relative"
+    },
+    {
+      "kind": "direction"
+    },
+    {
+      "kind": "augmented"
+    },
+    {
+      "kind": "qda",
+      "dim": 64,
+      "shrink": 0.5,
+      "alpha": 0.15
+    },
+    {
+      "kind": "qda",
+      "dim": 64,
+      "shrink": 0.5,
+      "alpha": 0.35
+    },
+    {
+      "kind": "qda",
+      "dim": 64,
+      "shrink": 0.9,
+      "alpha": 0.15
+    },
+    {
+      "kind": "qda",
+      "dim": 64,
+      "shrink": 0.9,
+      "alpha": 0.35
+    },
+    {
+      "kind": "qda",
+      "dim": 128,
+      "shrink": 0.5,
+      "alpha": 0.15
+    },
+    {
+      "kind": "qda",
+      "dim": 128,
+      "shrink": 0.5,
+      "alpha": 0.35
+    },
+    {
+      "kind": "qda",
+      "dim": 128,
+      "shrink": 0.9,
+      "alpha": 0.15
+    },
+    {
+      "kind": "qda",
+      "dim": 128,
+      "shrink": 0.9,
+      "alpha": 0.35
+    },
+    {
+      "kind": "qda",
+      "dim": 256,
+      "shrink": 0.5,
+      "alpha": 0.15
+    },
+    {
+      "kind": "qda",
+      "dim": 256,
+      "shrink": 0.5,
+      "alpha": 0.35
+    },
+    {
+      "kind": "qda",
+      "dim": 256,
+      "shrink": 0.9,
+      "alpha": 0.15
+    },
+    {
+      "kind": "qda",
+      "dim": 256,
+      "shrink": 0.9,
+      "alpha": 0.35
+    }
+  ],
+  "test_access": false
+}

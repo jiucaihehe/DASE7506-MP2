@@ -1,0 +1,52 @@
+{
+  "seed": 7506,
+  "folds": 3,
+  "configs": [
+    {
+      "kind": "baseline",
+      "dim": 0,
+      "penalty": 1.0
+    },
+    {
+      "kind": "bilinear",
+      "dim": 8,
+      "penalty": 0.2
+    },
+    {
+      "kind": "bilinear",
+      "dim": 8,
+      "penalty": 1.0
+    },
+    {
+      "kind": "bilinear",
+      "dim": 16,
+      "penalty": 0.2
+    },
+    {
+      "kind": "bilinear",
+      "dim": 16,
+      "penalty": 1.0
+    },
+    {
+      "kind": "hand_gate",
+      "dim": 8,
+      "penalty": 0.2
+    },
+    {
+      "kind": "hand_gate",
+      "dim": 8,
+      "penalty": 1.0
+    },
+    {
+      "kind": "hand_gate",
+      "dim": 16,
+      "penalty": 0.2
+    },
+    {
+      "kind": "hand_gate",
+      "dim": 16,
+      "penalty": 1.0
+    }
+  ],
+  "selection": "pooled train OOF hard correct; earliest breaks ties"
+}

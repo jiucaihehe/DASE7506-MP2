@@ -1,0 +1,21 @@
+{
+  "split": "test",
+  "official_score": {
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "test",
+    "correct": 392,
+    "n": 467,
+    "accuracy": 83.94004282655246,
+    "scoring_seconds": 0.06304249999811873
+  },
+  "prediction_wall_seconds": 0.6100082999910228,
+  "scoring_wall_seconds": 0.3043726999894716,
+  "total_wall_seconds": 0.9143809999804944,
+  "threads": 4,
+  "local_cpu": "Intel Core Ultra 9 275HX",
+  "platform": "win32",
+  "inference_asset_bytes": 307183,
+  "checkpoint_sha256": "cc8483cb50c6b7287613897b5b78178b2accd0780888b5ac227d46f1fc984537",
+  "reference_machine_certified": false,
+  "test_used_for_selection": false
+}

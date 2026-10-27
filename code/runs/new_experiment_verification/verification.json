@@ -1,0 +1,62 @@
+{
+  "integrity": {
+    "submission.py": "3d85573c28baae14b02a6a9f7fd396f04e40791f98380ecedf43672f5ae8e013",
+    "runs/model_bundle.npz": "d1cdc3a3c209980acc43a70c9d428be105f2c2782a608dbbf6833b5c227f08da"
+  },
+  "validation_resources": {
+    "context": {
+      "protocol": "dase7506-mp2-open-hard-verifier-v5",
+      "split": "validation",
+      "correct": 743,
+      "n": 798,
+      "accuracy": 93.10776942355889,
+      "scoring_seconds": 0.03237420000368729,
+      "prediction_wall_seconds": 0.8839964999933727,
+      "scoring_wall_seconds": 0.23486250004498288,
+      "total_wall_seconds": 1.1188590000383556,
+      "asset_bytes": 3178010,
+      "asset_sha256": {
+        "runs\\context_experiment\\qda_bundle.npz": "fe101f34cf8a0fe92148b3f34a4ca75fa4fc33f325cec3cb3963f76f3eefbfec"
+      }
+    },
+    "bilinear": {
+      "protocol": "dase7506-mp2-open-hard-verifier-v5",
+      "split": "validation",
+      "correct": 747,
+      "n": 798,
+      "accuracy": 93.60902255639098,
+      "scoring_seconds": 0.03264399996260181,
+      "prediction_wall_seconds": 0.6954427000018768,
+      "scoring_wall_seconds": 0.2515471000224352,
+      "total_wall_seconds": 0.946989800024312,
+      "asset_bytes": 306806,
+      "asset_sha256": {
+        "runs\\bilinear_experiment\\selected_bundle.npz": "cc8483cb50c6b7287613897b5b78178b2accd0780888b5ac227d46f1fc984537"
+      }
+    },
+    "programs": {
+      "protocol": "dase7506-mp2-open-hard-verifier-v5",
+      "split": "validation",
+      "correct": 746,
+      "n": 798,
+      "accuracy": 93.48370927318295,
+      "scoring_seconds": 0.03283370001008734,
+      "prediction_wall_seconds": 2.1957492000074126,
+      "scoring_wall_seconds": 0.2791266999556683,
+      "total_wall_seconds": 2.474875899963081,
+      "asset_bytes": 2290966,
+      "asset_sha256": {
+        "runs\\program_experiment\\programs.npz": "728cc8429afb9360780fbde9e06c2f1b236e4734f11b0489a88cda3a5f5e4a24",
+        "runs\\program_experiment\\base_bundle.npz": "d1cdc3a3c209980acc43a70c9d428be105f2c2782a608dbbf6833b5c227f08da"
+      }
+    }
+  },
+  "input_contracts": {
+    "context": "passed: subset, reorder, duplicate question, new IDs, empty bank",
+    "bilinear": "passed: subset, reorder, duplicate question, new IDs, empty bank",
+    "programs": "passed: subset, reorder, duplicate question, new IDs, empty bank"
+  },
+  "threads": 4,
+  "test_evaluated": false,
+  "note": "Windows local validation timings; not a test-bank or reference-Xeon certification."
+}

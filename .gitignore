@@ -5,3 +5,19 @@ venv/
 .DS_Store
 Thumbs.db
 code/runs/feature_cache.npz
+
+# Local development output; the frozen final_candidate assets remain tracked.
+code/runs/*_console.log
+code/runs/context_experiment/*.npz
+code/runs/objective_experiment/*.npz
+code/runs/kernel_experiment/*.npz
+code/runs/structural_experiment/*.npz
+code/runs/bagging_experiment/*.npz
+code/runs/program_experiment/*.npz
+code/runs/reproduction_check/*.npz
+code/runs/submission_audit/pdf/page-*.png
+code/runs/submission_audit/pdf/extracted_text.txt
+code/runs/submission_audit/website.html
+code/runs/submission_audit/website.mjs
+code/runs/submission_audit/arena.mjs
+code/runs/submission_audit/leaderboard.json

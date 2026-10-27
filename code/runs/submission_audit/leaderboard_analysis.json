@@ -1,0 +1,23 @@
+{
+  "snapshot_generated_at": "2026-10-27T17:18:37.403Z",
+  "best_rows": 32,
+  "displayed_ties": {
+    "84.5824": 4,
+    "84.3683": 2,
+    "84.1541": 2,
+    "83.7259": 2,
+    "83.5118": 2,
+    "83.2976": 3,
+    "81.5846": 2
+  },
+  "status_counts": {
+    "self-reported": 32
+  },
+  "score_step_percentage_points": 0.21413276231263384,
+  "illustrative_correct_counts": {
+    "390": 83.5117773019272,
+    "391": 83.72591006423983,
+    "392": 83.94004282655246
+  },
+  "own_account_records": []
+}

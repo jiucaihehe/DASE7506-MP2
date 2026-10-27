@@ -1,0 +1,255 @@
+{
+  "winner_index": 13,
+  "winner": {
+    "kind": "qda",
+    "dim": 256,
+    "shrink": 0.5,
+    "alpha": 0.35
+  },
+  "results": [
+    {
+      "config": {
+        "kind": "baseline"
+      },
+      "oof": {
+        "all_correct": 4330,
+        "all_n": 4755,
+        "hard_correct": 2088,
+        "hard_n": 2513,
+        "all_pct": 91.062039957939,
+        "hard_pct": 83.08794269797055
+      }
+    },
+    {
+      "config": {
+        "kind": "relative"
+      },
+      "oof": {
+        "all_correct": 4306,
+        "all_n": 4755,
+        "hard_correct": 2064,
+        "hard_n": 2513,
+        "all_pct": 90.55730809674027,
+        "hard_pct": 82.13290887385595
+      }
+    },
+    {
+      "config": {
+        "kind": "direction"
+      },
+      "oof": {
+        "all_correct": 4321,
+        "all_n": 4755,
+        "hard_correct": 2079,
+        "hard_n": 2513,
+        "all_pct": 90.87276550998948,
+        "hard_pct": 82.72980501392759
+      }
+    },
+    {
+      "config": {
+        "kind": "augmented"
+      },
+      "oof": {
+        "all_correct": 4306,
+        "all_n": 4755,
+        "hard_correct": 2064,
+        "hard_n": 2513,
+        "all_pct": 90.55730809674027,
+        "hard_pct": 82.13290887385595
+      }
+    },
+    {
+      "config": {
+        "kind": "qda",
+        "dim": 64,
+        "shrink": 0.5,
+        "alpha": 0.15
+      },
+      "oof": {
+        "all_correct": 4332,
+        "all_n": 4755,
+        "hard_correct": 2090,
+        "hard_n": 2513,
+        "all_pct": 91.10410094637224,
+        "hard_pct": 83.1675288499801
+      }
+    },
+    {
+      "config": {
+        "kind": "qda",
+        "dim": 64,
+        "shrink": 0.5,
+        "alpha": 0.35
+      },
+      "oof": {
+        "all_correct": 4336,
+        "all_n": 4755,
+        "hard_correct": 2094,
+        "hard_n": 2513,
+        "all_pct": 91.1882229232387,
+        "hard_pct": 83.32670115399921
+      }
+    },
+    {
+      "config": {
+        "kind": "qda",
+        "dim": 64,
+        "shrink": 0.9,
+        "alpha": 0.15
+      },
+      "oof": {
+        "all_correct": 4327,
+        "all_n": 4755,
+        "hard_correct": 2085,
+        "hard_n": 2513,
+        "all_pct": 90.99894847528917,
+        "hard_pct": 82.96856346995622
+      }
+    },
+    {
+      "config": {
+        "kind": "qda",
+        "dim": 64,
+        "shrink": 0.9,
+        "alpha": 0.35
+      },
+      "oof": {
+        "all_correct": 4323,
+        "all_n": 4755,
+        "hard_correct": 2081,
+        "hard_n": 2513,
+        "all_pct": 90.91482649842271,
+        "hard_pct": 82.80939116593713
+      }
+    },
+    {
+      "config": {
+        "kind": "qda",
+        "dim": 128,
+        "shrink": 0.5,
+        "alpha": 0.15
+      },
+      "oof": {
+        "all_correct": 4342,
+        "all_n": 4755,
+        "hard_correct": 2100,
+        "hard_n": 2513,
+        "all_pct": 91.31440588853839,
+        "hard_pct": 83.56545961002786
+      }
+    },
+    {
+      "config": {
+        "kind": "qda",
+        "dim": 128,
+        "shrink": 0.5,
+        "alpha": 0.35
+      },
+      "oof": {
+        "all_correct": 4341,
+        "all_n": 4755,
+        "hard_correct": 2099,
+        "hard_n": 2513,
+        "all_pct": 91.29337539432176,
+        "hard_pct": 83.52566653402307
+      }
+    },
+    {
+      "config": {
+        "kind": "qda",
+        "dim": 128,
+        "shrink": 0.9,
+        "alpha": 0.15
+      },
+      "oof": {
+        "all_correct": 4340,
+        "all_n": 4755,
+        "hard_correct": 2098,
+        "hard_n": 2513,
+        "all_pct": 91.27234490010515,
+        "hard_pct": 83.4858734580183
+      }
+    },
+    {
+      "config": {
+        "kind": "qda",
+        "dim": 128,
+        "shrink": 0.9,
+        "alpha": 0.35
+      },
+      "oof": {
+        "all_correct": 4338,
+        "all_n": 4755,
+        "hard_correct": 2096,
+        "hard_n": 2513,
+        "all_pct": 91.23028391167193,
+        "hard_pct": 83.40628730600875
+      }
+    },
+    {
+      "config": {
+        "kind": "qda",
+        "dim": 256,
+        "shrink": 0.5,
+        "alpha": 0.15
+      },
+      "oof": {
+        "all_correct": 4336,
+        "all_n": 4755,
+        "hard_correct": 2094,
+        "hard_n": 2513,
+        "all_pct": 91.1882229232387,
+        "hard_pct": 83.32670115399921
+      }
+    },
+    {
+      "config": {
+        "kind": "qda",
+        "dim": 256,
+        "shrink": 0.5,
+        "alpha": 0.35
+      },
+      "oof": {
+        "all_correct": 4344,
+        "all_n": 4755,
+        "hard_correct": 2102,
+        "hard_n": 2513,
+        "all_pct": 91.35646687697161,
+        "hard_pct": 83.64504576203741
+      }
+    },
+    {
+      "config": {
+        "kind": "qda",
+        "dim": 256,
+        "shrink": 0.9,
+        "alpha": 0.15
+      },
+      "oof": {
+        "all_correct": 4338,
+        "all_n": 4755,
+        "hard_correct": 2096,
+        "hard_n": 2513,
+        "all_pct": 91.23028391167193,
+        "hard_pct": 83.40628730600875
+      }
+    },
+    {
+      "config": {
+        "kind": "qda",
+        "dim": 256,
+        "shrink": 0.9,
+        "alpha": 0.35
+      },
+      "oof": {
+        "all_correct": 4340,
+        "all_n": 4755,
+        "hard_correct": 2098,
+        "hard_n": 2513,
+        "all_pct": 91.27234490010515,
+        "hard_pct": 83.4858734580183
+      }
+    }
+  ]
+}

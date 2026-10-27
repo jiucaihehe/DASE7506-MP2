@@ -1,0 +1,15 @@
+{
+  "seed": 7506,
+  "folds": 3,
+  "thresholds": [
+    0.35,
+    0.45,
+    0.55,
+    0.65,
+    0.75,
+    0.85,
+    1.01
+  ],
+  "selection": "max OOF hard correct; larger threshold breaks ties",
+  "supervision": "training questions and reference arithmetic programs only"
+}

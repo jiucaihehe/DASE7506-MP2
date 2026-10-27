@@ -1,0 +1,42 @@
+{
+  "seed": 7506,
+  "folds": 3,
+  "configs": [
+    {
+      "kind": "set",
+      "lam": 0.005
+    },
+    {
+      "kind": "set",
+      "lam": 0.02
+    },
+    {
+      "kind": "set",
+      "lam": 0.08
+    },
+    {
+      "kind": "uniform",
+      "lam": 0.005
+    },
+    {
+      "kind": "uniform",
+      "lam": 0.02
+    },
+    {
+      "kind": "uniform",
+      "lam": 0.08
+    },
+    {
+      "kind": "pairwise",
+      "lam": 0.005
+    },
+    {
+      "kind": "pairwise",
+      "lam": 0.02
+    },
+    {
+      "kind": "pairwise",
+      "lam": 0.08
+    }
+  ]
+}

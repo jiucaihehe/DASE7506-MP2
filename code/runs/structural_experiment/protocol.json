@@ -1,0 +1,30 @@
+{
+  "seed": 7506,
+  "folds": 3,
+  "configs": [
+    {
+      "kind": "set",
+      "penalty": 0.05
+    },
+    {
+      "kind": "set",
+      "penalty": 0.5
+    },
+    {
+      "kind": "set",
+      "penalty": 5.0
+    },
+    {
+      "kind": "uniform",
+      "penalty": 0.05
+    },
+    {
+      "kind": "uniform",
+      "penalty": 0.5
+    },
+    {
+      "kind": "uniform",
+      "penalty": 5.0
+    }
+  ]
+}

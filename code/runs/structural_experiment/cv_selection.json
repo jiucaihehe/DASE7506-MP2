@@ -1,0 +1,92 @@
+{
+  "winner": {
+    "kind": "uniform",
+    "penalty": 0.5
+  },
+  "results": [
+    {
+      "config": {
+        "kind": "set",
+        "penalty": 0.05
+      },
+      "oof": {
+        "all_correct": 4274,
+        "all_n": 4755,
+        "hard_correct": 2032,
+        "hard_n": 2513,
+        "all_pct": 89.88433228180862,
+        "hard_pct": 80.85953044170314
+      }
+    },
+    {
+      "config": {
+        "kind": "set",
+        "penalty": 0.5
+      },
+      "oof": {
+        "all_correct": 4325,
+        "all_n": 4755,
+        "hard_correct": 2083,
+        "hard_n": 2513,
+        "all_pct": 90.95688748685595,
+        "hard_pct": 82.88897731794668
+      }
+    },
+    {
+      "config": {
+        "kind": "set",
+        "penalty": 5.0
+      },
+      "oof": {
+        "all_correct": 4331,
+        "all_n": 4755,
+        "hard_correct": 2089,
+        "hard_n": 2513,
+        "all_pct": 91.08307045215562,
+        "hard_pct": 83.12773577397533
+      }
+    },
+    {
+      "config": {
+        "kind": "uniform",
+        "penalty": 0.05
+      },
+      "oof": {
+        "all_correct": 4323,
+        "all_n": 4755,
+        "hard_correct": 2081,
+        "hard_n": 2513,
+        "all_pct": 90.91482649842271,
+        "hard_pct": 82.80939116593713
+      }
+    },
+    {
+      "config": {
+        "kind": "uniform",
+        "penalty": 0.5
+      },
+      "oof": {
+        "all_correct": 4369,
+        "all_n": 4755,
+        "hard_correct": 2127,
+        "hard_n": 2513,
+        "all_pct": 91.88222923238696,
+        "hard_pct": 84.63987266215679
+      }
+    },
+    {
+      "config": {
+        "kind": "uniform",
+        "penalty": 5.0
+      },
+      "oof": {
+        "all_correct": 4362,
+        "all_n": 4755,
+        "hard_correct": 2120,
+        "hard_n": 2513,
+        "all_pct": 91.73501577287067,
+        "hard_pct": 84.36132113012336
+      }
+    }
+  ]
+}

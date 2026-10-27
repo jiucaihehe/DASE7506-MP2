@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "official_score": {
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "test",
+    "correct": 392,
+    "n": 467,
+    "accuracy": 83.94004282655246,
+    "scoring_seconds": 0.07254309998825192
+  },
+  "all_467_choices_match_frozen": true,
+  "isolated_source_line_endings": "LF (portable-clone simulation)",
+  "inference_guard": {
+    "reference_free": true,
+    "network_blocked": true,
+    "training_imports_blocked": true,
+    "input_contracts": "passed",
+    "threadpools": [
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 4,
+        "prefix": "libscipy_openblas",
+        "filepath": "C:\\Users\\a1821\\Documents\\ChatGPT\\7506pj2\\DASE7506-MP2\\.venv\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+        "version": "0.3.34.106.0",
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      }
+    ]
+  },
+  "guarded_prediction_plus_contract_checks_wall_seconds": 0.8592242999584414,
+  "independent_scoring_wall_seconds": 0.34495759999845177,
+  "inference_asset_bytes": 307183,
+  "npz_member_uncompressed_bytes": 305916,
+  "checkpoint_sha256": "cc8483cb50c6b7287613897b5b78178b2accd0780888b5ac227d46f1fc984537",
+  "no_model_changes": true,
+  "test_used_for_tuning": false,
+  "note": "Guarded audit includes extra input-contract predictions; original fresh evaluation timing remains separately recorded."
+}

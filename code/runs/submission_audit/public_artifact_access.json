@@ -1,0 +1,15 @@
+{
+  "README.md": {
+    "status": 200,
+    "old_readme_score": true
+  },
+  "code/submission_candidate.py": {
+    "status": 404
+  },
+  "code/runs/final_candidate/config.json": {
+    "status": 404
+  },
+  "report/REPORT_V2.md": {
+    "status": 404
+  }
+}

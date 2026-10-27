@@ -1,0 +1,16 @@
+{
+  "config": {
+    "kind": "hand",
+    "width": 2.0,
+    "penalty": 0.2
+  },
+  "selected": {
+    "all_correct": 745,
+    "all_n": 798,
+    "hard_correct": 366,
+    "hard_n": 419,
+    "all_pct": 93.35839598997494,
+    "hard_pct": 87.3508353221957
+  },
+  "seconds": 37.3601636000094
+}

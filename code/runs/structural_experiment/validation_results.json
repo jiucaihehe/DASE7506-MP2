@@ -1,0 +1,15 @@
+{
+  "config": {
+    "kind": "uniform",
+    "penalty": 0.5
+  },
+  "selected": {
+    "all_correct": 743,
+    "all_n": 798,
+    "hard_correct": 364,
+    "hard_n": 419,
+    "all_pct": 93.10776942355889,
+    "hard_pct": 86.87350835322196
+  },
+  "seconds": 48.23817919997964
+}

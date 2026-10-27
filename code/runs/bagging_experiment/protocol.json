@@ -1,0 +1,10 @@
+{
+  "seed": 7506,
+  "members": 8,
+  "weights": "independent Exponential(1) group weights",
+  "kind": "hand_gate",
+  "dim": 8,
+  "penalty": 1.0,
+  "epochs": 1500,
+  "selection": "all eight members equally weighted, no seed selection"
+}

@@ -1,0 +1,11 @@
+{
+  "family": "bilinear",
+  "checkpoint_sha256": "cc8483cb50c6b7287613897b5b78178b2accd0780888b5ac227d46f1fc984537",
+  "selected_using": "validation hard accuracy; asset size breaks ties",
+  "validation_hard_correct": 368,
+  "validation_hard_n": 419,
+  "validation_correct": 747,
+  "validation_n": 798,
+  "train_only_fit": true,
+  "test_used_for_selection": false
+}

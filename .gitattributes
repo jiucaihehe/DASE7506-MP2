@@ -1,0 +1,5 @@
+# Official data hashes apply to the exact original JSONL bytes.
+code/data/*.jsonl -text
+code/data/candidates/*.jsonl -text
+*.npz binary
+*.pdf binary

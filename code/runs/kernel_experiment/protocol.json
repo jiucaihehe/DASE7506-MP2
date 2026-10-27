@@ -1,0 +1,46 @@
+{
+  "seed": 7506,
+  "folds": 3,
+  "configs": [
+    {
+      "kind": "semantic",
+      "width": 0.5,
+      "penalty": 0.2
+    },
+    {
+      "kind": "semantic",
+      "width": 0.5,
+      "penalty": 1.0
+    },
+    {
+      "kind": "semantic",
+      "width": 2.0,
+      "penalty": 0.2
+    },
+    {
+      "kind": "semantic",
+      "width": 2.0,
+      "penalty": 1.0
+    },
+    {
+      "kind": "hand",
+      "width": 0.5,
+      "penalty": 0.2
+    },
+    {
+      "kind": "hand",
+      "width": 0.5,
+      "penalty": 1.0
+    },
+    {
+      "kind": "hand",
+      "width": 2.0,
+      "penalty": 0.2
+    },
+    {
+      "kind": "hand",
+      "width": 2.0,
+      "penalty": 1.0
+    }
+  ]
+}

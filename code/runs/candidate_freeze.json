@@ -1,0 +1,85 @@
+{
+  "candidates": [
+    {
+      "name": "original",
+      "family": "original",
+      "hard_correct": 367,
+      "all_correct": 746,
+      "checkpoint": "runs/model_bundle.npz"
+    },
+    {
+      "name": "bilinear_experiment",
+      "family": "bilinear",
+      "hard_correct": 368,
+      "all_correct": 747,
+      "checkpoint": "runs\\bilinear_experiment\\selected_bundle.npz"
+    },
+    {
+      "name": "objective_experiment",
+      "family": "linear",
+      "hard_correct": 364,
+      "all_correct": 743,
+      "checkpoint": "runs\\objective_experiment\\selected_bundle.npz"
+    },
+    {
+      "name": "kernel_experiment",
+      "family": "kernel",
+      "hard_correct": 366,
+      "all_correct": 745,
+      "checkpoint": "runs\\kernel_experiment\\selected_bundle.npz"
+    },
+    {
+      "name": "structural_experiment",
+      "family": "structural",
+      "hard_correct": 364,
+      "all_correct": 743,
+      "checkpoint": "runs\\structural_experiment\\selected_bundle.npz"
+    },
+    {
+      "name": "bagging_experiment",
+      "family": "bagging",
+      "hard_correct": 365,
+      "all_correct": 744,
+      "checkpoint": "runs\\bagging_experiment\\selected_bundle.npz"
+    }
+  ],
+  "selected": {
+    "name": "bilinear_experiment",
+    "family": "bilinear",
+    "hard_correct": 368,
+    "all_correct": 747,
+    "checkpoint": "runs\\bilinear_experiment\\selected_bundle.npz"
+  },
+  "config": {
+    "family": "bilinear",
+    "checkpoint_sha256": "cc8483cb50c6b7287613897b5b78178b2accd0780888b5ac227d46f1fc984537",
+    "selected_using": "validation hard accuracy; asset size breaks ties",
+    "validation_hard_correct": 368,
+    "validation_hard_n": 419,
+    "validation_correct": 747,
+    "validation_n": 798,
+    "train_only_fit": true,
+    "test_used_for_selection": false
+  },
+  "source_sha256": {
+    "submission_candidate.py": "a39c0f98fcd36e6bdb9ed88bc749d0d88408c6d2ccf3d442037f7a78e2283cbf",
+    "method_bilinear.py": "ba4d0c19f93dbcaff852d858995475b9d9de9f0be8a31d460077778d1447ae3b",
+    "method_bagging.py": "d50fcfd273326568044e33951f9f615ca03a8468f0a46dbee7cd57e32fa9e181",
+    "method_kernel.py": "709dfdfb6199859a8a6b20ba2edae19f0140fe6ec30a343f3d3f589651ed6e6b",
+    "structural_text.py": "529a931a446596d74f8cf3983bc2255358341111a4d68a8119df70f231e2c426",
+    "program_transfer.py": "18416e08c46b867924a60b805120f7713a595b9cfe93c80673ed0a1003a112f9",
+    "features.py": "00112f1f4dfdc8187982ad1330765a34141b5d0bd1a93c14a62342b5db93d30a",
+    "common.py": "88d5743d0cbacc72afbc364e1ddbfa1672ede05909e3f3b9e0e2d26f22d98fb8"
+  },
+  "inference_asset_bytes": 307183,
+  "source_sha256_lf": {
+    "submission_candidate.py": "a39c0f98fcd36e6bdb9ed88bc749d0d88408c6d2ccf3d442037f7a78e2283cbf",
+    "method_bilinear.py": "ba4d0c19f93dbcaff852d858995475b9d9de9f0be8a31d460077778d1447ae3b",
+    "method_bagging.py": "d50fcfd273326568044e33951f9f615ca03a8468f0a46dbee7cd57e32fa9e181",
+    "method_kernel.py": "709dfdfb6199859a8a6b20ba2edae19f0140fe6ec30a343f3d3f589651ed6e6b",
+    "structural_text.py": "529a931a446596d74f8cf3983bc2255358341111a4d68a8119df70f231e2c426",
+    "program_transfer.py": "18416e08c46b867924a60b805120f7713a595b9cfe93c80673ed0a1003a112f9",
+    "features.py": "27dbb022457bdbc43acb89a29eb6488b5dc05131ba254dbfcdf889ce017bd22d",
+    "common.py": "aecd10f7ff2e9e82ac5673d34d576e122caac51d2caaa7c7a8aa05906da51f6c"
+  }
+}

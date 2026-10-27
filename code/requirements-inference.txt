@@ -1,0 +1,2 @@
+# Frozen contextual selection needs no training library or model download.
+numpy==2.5.4

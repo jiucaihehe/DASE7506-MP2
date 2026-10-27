@@ -1,0 +1,24 @@
+{
+  "selected_threshold": 1.01,
+  "baseline": {
+    "all_correct": 746,
+    "all_n": 798,
+    "hard_correct": 367,
+    "hard_n": 419,
+    "all_pct": 93.48370927318295,
+    "hard_pct": 87.58949880668257
+  },
+  "selected": {
+    "all_correct": 746,
+    "all_n": 798,
+    "hard_correct": 367,
+    "hard_n": 419,
+    "all_pct": 93.48370927318295,
+    "hard_pct": 87.58949880668257
+  },
+  "rescued": 0,
+  "regressed": 0,
+  "changed": 0,
+  "seconds": 3.378667499986477,
+  "asset_bytes": 2290966
+}

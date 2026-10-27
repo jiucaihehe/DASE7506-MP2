@@ -1,0 +1,15 @@
+{
+  "all_arrays_bitwise_identical": true,
+  "keys": [
+    "w",
+    "mu",
+    "sd",
+    "cm",
+    "cp",
+    "rp",
+    "kind",
+    "dim"
+  ],
+  "retrained_sha256": "cc8483cb50c6b7287613897b5b78178b2accd0780888b5ac227d46f1fc984537",
+  "frozen_sha256": "cc8483cb50c6b7287613897b5b78178b2accd0780888b5ac227d46f1fc984537"
+}
